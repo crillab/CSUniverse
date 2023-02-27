@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Thibault Falque</Authors>
+    <Company>Exakis Nelite, Univ Artois &amp; CNRS</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/crillab/csuniverse</RepositoryUrl>
+    <Description>`CSUuniverse` is a `C#` version of [UNIVERSE](https://github.com/crillab/universe) library and proposes generic interfaces for combinatorial problems solvers. 
+</Description>
+    <PackageTags>constraint programming; interface; solver</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CSP\Operator\" />
+    <Folder Include="Optim\" />
+  </ItemGroup>
+
+</Project>
