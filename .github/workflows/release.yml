@@ -22,6 +22,6 @@ jobs:
     - name: Pack CSUniverse
       run: dotnet pack Fr.UnivArtois.CRIL.CSUniverse --configuration Release /p:Version=${VERSION} --no-build --output .
     - name: Push CSUniverse
-      run: dotnet nuget push Fr.UnivArtois.CRIL.CSUniverse.${VERSION}.nupkg --source https://api.nuget.org --api-key ${NUGET_TOKEN}
+      run: dotnet nuget push Fr.UnivArtois.CRIL.CSUniverse.${VERSION}.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_TOKEN}
       env:
         NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
