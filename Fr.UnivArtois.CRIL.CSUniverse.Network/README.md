@@ -1,18 +1,13 @@
-# UNIvERSE - mUlti laNguage unIfied intErface foR conStraint solvErs
+# Fr.UnivArtois.CRIL.CSUniverse.Network
 
 ## Description
  
-`CSUuniverse` is a `C#` version of [UNIVERSE](https://github.com/crillab/universe) library and proposes generic interfaces for combinatorial problems solvers. 
+This repository contains an extension of [CSUniverse](../Fr.UnivArtois.CRIL.CSUniverse) that adds network features for `UNIVERSE`. 
 
-- [SAT Solver](src/main/java/fr/univartois/cril/juniverse/sat/IUniverseSatSolver.java)
-- [PB Solver](src/main/java/fr/univartois/cril/juniverse/pb/IUniversePseudoBooleanSolver.java)
-- [XCSP Solver](src/main/java/fr/univartois/cril/juniverse/csp/IUniverseCSPSolver.java) 
+## Nuget
 
-These interfaces are described in the following diagrams :
+This package is deployed on [nuget.org](https://www.nuget.org/packages/Fr.UnivArtois.CRIL.CSUniverse.Network).
 
-![Solvers Interface](./doc/figures/solverinterfaces.png)
-
-`Universe` offers an interface for create Solver. This interface follows the factory design pattern and is described
-in the following diagrams: 
-
-![factory](./doc/figures/factory.png)
+```bash
+dotnet add package Fr.UnivArtois.CRIL.CSUniverse.Network
+```
