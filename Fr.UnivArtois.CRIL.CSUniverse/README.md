@@ -8,3 +8,10 @@
 - [PB Solver](Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs)
 - [XCSP Solver](Fr.UnivArtois.CRIL.CSUniverse/CSP/IUniverseCSPSolver.cs) 
 
+## Nuget
+
+This package is deployed on [nuget.org](https://www.nuget.org/packages/Fr.UnivArtois.CRIL.CSUniverse).
+
+```bash
+dotnet add package Fr.UnivArtois.CRIL.CSUniverse --version 0.1.0
+```
