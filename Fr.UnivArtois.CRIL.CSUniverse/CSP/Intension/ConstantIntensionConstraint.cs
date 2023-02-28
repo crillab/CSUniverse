@@ -19,46 +19,48 @@
 
 using System.Numerics;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The ConstantIntensionConstraint is an {@link IIntensionConstraint} that represents a
-/// constant value.
-///
-///
-///</summary>
-public class ConstantIntensionConstraint : IIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The value of the constant.
-    ///</summary>
-    private BigInteger value;
-
-    ///<summary>
-    /// Creates a new ConstantIntensionConstraint.
+    /// The ConstantIntensionConstraint is an {@link IIntensionConstraint} that represents a
+    /// constant value.
+    ///
     ///
     ///</summary>
-    ///<param name="value">The value of the constant.</param>
-    public ConstantIntensionConstraint(BigInteger value)
-    {
-        this.value = value;
-    }
-
-    ///<summary>
-    /// Gives the value of the constant.
-    ///
-    ///<return>value of the constant.</return>
-    ///</summary>
-    public BigInteger GetValue()
-    {
-        return this.value;
-    }
-
-    public void Accept(IIntensionConstraintVisitor visitor)
+    public class ConstantIntensionConstraint : IIntensionConstraint
     {
 
-        visitor.Visit(this);
+        ///<summary>
+        /// The value of the constant.
+        ///</summary>
+        private BigInteger value;
+
+        ///<summary>
+        /// Creates a new ConstantIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="value">The value of the constant.</param>
+        public ConstantIntensionConstraint(BigInteger value)
+        {
+            this.value = value;
+        }
+
+        ///<summary>
+        /// Gives the value of the constant.
+        ///
+        ///<return>value of the constant.</return>
+        ///</summary>
+        public BigInteger GetValue()
+        {
+            return this.value;
+        }
+
+        public void Accept(IIntensionConstraintVisitor visitor)
+        {
+
+            visitor.Visit(this);
+
+        }
 
     }
-
 }

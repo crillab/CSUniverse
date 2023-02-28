@@ -17,75 +17,77 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.Csp;
-///<summary>
-/// The UniverseTransition
-///
-///
-///</summary>
-public class UniverseTransition
+namespace Fr.UnivArtois.CRIL.CSUniverse.Csp
 {
     ///<summary>
-    /// The source state, where the transition begins.
-    ///</summary>
-    private string start;
-
-    ///<summary>
-    /// The value (object) labeling the transition.
-    ///</summary>
-    private int value;
-
-    ///<summary>
-    /// The target state, where the transition ends.
-    ///</summary>
-    private string end;
-
-    ///<summary>
-    /// Creates a new UniverseTransition.
-    ///</summary>
-    ///<param name="start"></param>
-    ///<param name="value"></param>
-    ///<param name="end"></param>
-    public UniverseTransition(string start, int value, string end)
-    {
-        this.start = start;
-        this.value = value;
-        this.end = end;
-    }
-
-
-    ///<summary>
-    /// Gives the start of this UniverseTransition.
+    /// The UniverseTransition
     ///
-    ///<return>UniverseTransition's start.</return>
-    ///</summary>
-    public String GetStart()
-    {
-        return start;
-    }
-
-
-    ///<summary>
-    /// Gives the value of this UniverseTransition.
     ///
-    ///<return>UniverseTransition's value.</return>
     ///</summary>
-    public int GetValue()
+    public class UniverseTransition
     {
-        return value;
+        ///<summary>
+        /// The source state, where the transition begins.
+        ///</summary>
+        private string start;
+
+        ///<summary>
+        /// The value (object) labeling the transition.
+        ///</summary>
+        private int value;
+
+        ///<summary>
+        /// The target state, where the transition ends.
+        ///</summary>
+        private string end;
+
+        ///<summary>
+        /// Creates a new UniverseTransition.
+        ///</summary>
+        ///<param name="start"></param>
+        ///<param name="value"></param>
+        ///<param name="end"></param>
+        public UniverseTransition(string start, int value, string end)
+        {
+            this.start = start;
+            this.value = value;
+            this.end = end;
+        }
+
+
+        ///<summary>
+        /// Gives the start of this UniverseTransition.
+        ///
+        ///<return>UniverseTransition's start.</return>
+        ///</summary>
+        public string GetStart()
+        {
+            return start;
+        }
+
+
+        ///<summary>
+        /// Gives the value of this UniverseTransition.
+        ///
+        ///<return>UniverseTransition's value.</return>
+        ///</summary>
+        public int GetValue()
+        {
+            return value;
+        }
+
+
+        ///<summary>
+        /// Gives the end of this UniverseTransition.
+        ///
+        ///<return>UniverseTransition's end.</return>
+        ///</summary>
+        public string GetEnd()
+        {
+            return end;
+        }
+
+
     }
-
-
-    ///<summary>
-    /// Gives the end of this UniverseTransition.
-    ///
-    ///<return>UniverseTransition's end.</return>
-    ///</summary>
-    public string GetEnd()
-    {
-        return end;
-    }
-
 
 }
-

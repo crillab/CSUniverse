@@ -17,44 +17,46 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The VariableIntensionConstraint is an {@link IIntensionConstraint} that represents a
-/// variable.
-///
-///
-///</summary>
-public class VariableIntensionConstraint : IIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The identifier of the variable.
-    ///</summary>
-    private string identifier;
-
-    ///<summary>
-    /// Creates a new VariableIntensionConstraint.
+    /// The VariableIntensionConstraint is an {@link IIntensionConstraint} that represents a
+    /// variable.
+    ///
     ///
     ///</summary>
-    ///<param name="identifier">The identifier of the variable.</param>
-    public VariableIntensionConstraint(string identifier)
+    public class VariableIntensionConstraint : IIntensionConstraint
     {
-        this.identifier = identifier;
-    }
 
-    ///<summary>
-    /// Gives the identifier of the variable of this constraint.
-    ///
-    ///<return>identifier of the variable.</return>
-    ///</summary>
-    public String GetIdentifier()
-    {
-        return this.identifier;
-    }
+        ///<summary>
+        /// The identifier of the variable.
+        ///</summary>
+        private string identifier;
 
-    public void Accept(IIntensionConstraintVisitor visitor)
-    {
-        visitor.Visit(this);
-    }
+        ///<summary>
+        /// Creates a new VariableIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="identifier">The identifier of the variable.</param>
+        public VariableIntensionConstraint(string identifier)
+        {
+            this.identifier = identifier;
+        }
 
+        ///<summary>
+        /// Gives the identifier of the variable of this constraint.
+        ///
+        ///<return>identifier of the variable.</return>
+        ///</summary>
+        public string GetIdentifier()
+        {
+            return this.identifier;
+        }
+
+        public void Accept(IIntensionConstraintVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
+
+    }
 }

@@ -17,58 +17,60 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The IfThenElseIntensionConstraint is an {@link IIntensionConstraint} that represents an
-/// {@code if-then-else} (ternary) constraint.
-///
-///
-///</summary>
-public class IfThenElseIntensionConstraint : IIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The condition of this constraint.
-    ///</summary>
-    private IIntensionConstraint condition;
-
-    ///<summary>
-    /// The intension constraint corresponding to the case in which {@link #condition}
-    /// evaluates to {@code true}.
-    ///</summary>
-    private IIntensionConstraint ifTrue;
-
-    ///<summary>
-    /// The intension constraint corresponding to the case in which {@link #condition}
-    /// evaluates to {@code false}.
-    ///</summary>
-    private IIntensionConstraint ifFalse;
-
-    ///<summary>
-    /// Creates a new IfThenElseIntensionConstraint.
+    /// The IfThenElseIntensionConstraint is an {@link IIntensionConstraint} that represents an
+    /// {@code if-then-else} (ternary) constraint.
+    ///
     ///
     ///</summary>
-    ///<param name="condition">The condition of the constraint.</param>
-    ///        condition evaluates to {@code true}.
-    ///<param name="ifTrue">The intension constraint corresponding to the case in which the</param>
-    ///        condition evaluates to {@code false}.
-    ///<param name="ifFalse">The intension constraint corresponding to the case in which the</param>
-    public IfThenElseIntensionConstraint(IIntensionConstraint condition,
-    IIntensionConstraint ifTrue, IIntensionConstraint ifFalse)
+    public class IfThenElseIntensionConstraint : IIntensionConstraint
     {
-        this.condition = condition;
-        this.ifTrue = ifTrue;
-        this.ifFalse = ifFalse;
+
+        ///<summary>
+        /// The condition of this constraint.
+        ///</summary>
+        private IIntensionConstraint condition;
+
+        ///<summary>
+        /// The intension constraint corresponding to the case in which {@link #condition}
+        /// evaluates to {@code true}.
+        ///</summary>
+        private IIntensionConstraint ifTrue;
+
+        ///<summary>
+        /// The intension constraint corresponding to the case in which {@link #condition}
+        /// evaluates to {@code false}.
+        ///</summary>
+        private IIntensionConstraint ifFalse;
+
+        ///<summary>
+        /// Creates a new IfThenElseIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="condition">The condition of the constraint.</param>
+        ///        condition evaluates to {@code true}.
+        ///<param name="ifTrue">The intension constraint corresponding to the case in which the</param>
+        ///        condition evaluates to {@code false}.
+        ///<param name="ifFalse">The intension constraint corresponding to the case in which the</param>
+        public IfThenElseIntensionConstraint(IIntensionConstraint condition,
+            IIntensionConstraint ifTrue, IIntensionConstraint ifFalse)
+        {
+            this.condition = condition;
+            this.ifTrue = ifTrue;
+            this.ifFalse = ifFalse;
+        }
+
+
+        public void Accept(IIntensionConstraintVisitor visitor)
+        {
+            this.condition.Accept(visitor);
+            this.ifTrue.Accept(visitor);
+            this.ifFalse.Accept(visitor);
+            visitor.Visit(this);
+
+        }
+
     }
-
-
-    public void Accept(IIntensionConstraintVisitor visitor)
-    {
-        this.condition.Accept(visitor);
-        this.ifTrue.Accept(visitor);
-        this.ifFalse.Accept(visitor);
-        visitor.Visit(this);
-
-    }
-
 }

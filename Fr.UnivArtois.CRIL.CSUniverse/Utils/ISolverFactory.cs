@@ -21,28 +21,30 @@ using Fr.UnivArtois.CRIL.CSUniverse.CSP;
 using Fr.UnivArtois.CRIL.CSUniverse.PB;
 using Fr.UnivArtois.CRIL.CSUniverse.Sat;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.Utils;
-/// <summary>
-/// The ISolverFactory class defines an abstract factory for instantiating solvers
-/// implementing different interfaces.
-/// </summary>
-public interface ISolverFactory
+namespace Fr.UnivArtois.CRIL.CSUniverse.Utils
 {
     /// <summary>
-    ///  Creates a SAT solver implementing Universe's interface.
+    /// The ISolverFactory class defines an abstract factory for instantiating solvers
+    /// implementing different interfaces.
     /// </summary>
-    /// <returns>The created solver.</returns>
-    IUniverseSatSolver CreateSatSolver();
+    public interface ISolverFactory
+    {
+        /// <summary>
+        ///  Creates a SAT solver implementing Universe's interface.
+        /// </summary>
+        /// <returns>The created solver.</returns>
+        IUniverseSatSolver CreateSatSolver();
 
-    /// <summary>
-    /// Creates a pseudo-Boolean solver implementing Universe's interface.
-    /// </summary>
-    /// <returns>The created solver.</returns>
-    IUniversePseudoBooleanSolver CreatePseudoBooleanSolver();
+        /// <summary>
+        /// Creates a pseudo-Boolean solver implementing Universe's interface.
+        /// </summary>
+        /// <returns>The created solver.</returns>
+        IUniversePseudoBooleanSolver CreatePseudoBooleanSolver();
 
-    /// <summary>
-    /// Creates a CSP solver implementing Universe's interface.
-    /// </summary>
-    /// <returns>The created solver.</returns>
-    IUniverseCspSolver CreateCspSolver();
+        /// <summary>
+        /// Creates a CSP solver implementing Universe's interface.
+        /// </summary>
+        /// <returns>The created solver.</returns>
+        IUniverseCspSolver CreateCspSolver();
+    }
 }

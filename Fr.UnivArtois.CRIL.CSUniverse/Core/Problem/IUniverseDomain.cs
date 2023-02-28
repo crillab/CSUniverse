@@ -17,36 +17,39 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
 using System.Numerics;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.Core.Problem;
-/// <summary>
-/// The IUniverseDomain represents the Domain of a Variable in constraint problem.
-/// </summary>
-public interface IUniverseDomain
+namespace Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
 {
-
     /// <summary>
-    /// Gives the minimum value of this domain.
+    /// The IUniverseDomain represents the Domain of a Variable in constraint problem.
     /// </summary>
-    /// <returns> The minimum value.</returns>
-    BigInteger Min();
+    public interface IUniverseDomain
+    {
 
-    /// <summary>
-    ///  Gives the maximum value of this domain.
-    /// </summary>
-    /// <returns> The maximum value.</returns>
-    BigInteger Max();
+        /// <summary>
+        /// Gives the minimum value of this domain.
+        /// </summary>
+        /// <returns> The minimum value.</returns>
+        BigInteger Min();
 
-    /// <summary>
-    /// Gives the number of values of this domain.
-    /// </summary>
-    /// <returns>The number of values.</returns>
-    long Size();
+        /// <summary>
+        ///  Gives the maximum value of this domain.
+        /// </summary>
+        /// <returns> The maximum value.</returns>
+        BigInteger Max();
 
-    /// <summary>
-    /// Gives the list of values of this domain.
-    /// </summary>
-    /// <returns> The list of values.</returns>
-    List<BigInteger> GetValues();
+        /// <summary>
+        /// Gives the number of values of this domain.
+        /// </summary>
+        /// <returns>The number of values.</returns>
+        long Size();
+
+        /// <summary>
+        /// Gives the list of values of this domain.
+        /// </summary>
+        /// <returns> The list of values.</returns>
+        List<BigInteger> GetValues();
+    }
 }

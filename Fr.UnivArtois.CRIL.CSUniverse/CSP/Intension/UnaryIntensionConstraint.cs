@@ -19,38 +19,40 @@
 
 using Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The UnaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
-/// operator on a single intension constraint.
-///
-///
-///</summary>
-public class UnaryIntensionConstraint : UniverseOperatorIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The intension constraint on which an operator is applied.
-    ///</summary>
-    private IIntensionConstraint child;
-
-    ///<summary>
-    /// Creates a new UnaryIntensionConstraint.
+    /// The UnaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
+    /// operator on a single intension constraint.
+    ///
     ///
     ///</summary>
-    ///<param name="operator">The operator applied by the constraint.</param>
-    ///<param name="child">The intension constraint on which the operator is applied.</param>
-    public UnaryIntensionConstraint(IUniverseOperator op, IIntensionConstraint child) : base(op)
+    public class UnaryIntensionConstraint : UniverseOperatorIntensionConstraint
     {
-        this.child = child;
+
+        ///<summary>
+        /// The intension constraint on which an operator is applied.
+        ///</summary>
+        private IIntensionConstraint child;
+
+        ///<summary>
+        /// Creates a new UnaryIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="operator">The operator applied by the constraint.</param>
+        ///<param name="child">The intension constraint on which the operator is applied.</param>
+        public UnaryIntensionConstraint(IUniverseOperator op, IIntensionConstraint child) : base(op)
+        {
+            this.child = child;
+        }
+
+        public override void Accept(IIntensionConstraintVisitor visitor)
+        {
+            this.child.Accept(visitor);
+            visitor.Visit(this);
+
+        }
+
+
     }
-
-    public override void Accept(IIntensionConstraintVisitor visitor)
-    {
-        this.child.Accept(visitor);
-        visitor.Visit(this);
-
-    }
-
-
 }

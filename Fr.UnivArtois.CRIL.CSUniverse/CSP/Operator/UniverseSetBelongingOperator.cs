@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
+
 namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
 {
     /// <summary>
@@ -27,12 +29,12 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
         ///<summary>
         /// The operator checking whether a value belongs to a set of values.
         ///</summary>
-        public static readonly UniverseRelationalOperator In = new();
+        public static readonly UniverseRelationalOperator In = new UniverseRelationalOperator();
 
         ///<summary>
         /// The operator checking whether a value does not belong to a set of values.
         ///</summary>
-        public static readonly UniverseRelationalOperator NotIn = new();
+        public static readonly UniverseRelationalOperator NotIn = new UniverseRelationalOperator();
 
 
         public IEnumerable<IUniverseOperator> Values()

@@ -17,39 +17,43 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.Core.Problem;
+using System.Collections.Generic;
 
-/// <summary>
-/// The IUniverseProblem represents the constraint problem.
-/// </summary>
-public interface IUniverseProblem
+namespace Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
 {
-    /// <summary>
-    /// Adds a variable to this problem.
-    /// </summary>
-    /// <param name="variable"> The variable to add.</param>
-    /// <see cref="IUniverseVariable"/>
-    void AddVariable(IUniverseVariable variable);
-
 
     /// <summary>
-    /// Gives the variables in this problem.
+    /// The IUniverseProblem represents the constraint problem.
     /// </summary>
-    /// <returns>The variables in this problem.</returns>
-    /// <see cref="IUniverseVariable"/>
-    List<IUniverseVariable> GetVariables();
+    public interface IUniverseProblem
+    {
+        /// <summary>
+        /// Adds a variable to this problem.
+        /// </summary>
+        /// <param name="variable"> The variable to add.</param>
+        /// <see cref="IUniverseVariable"/>
+        void AddVariable(IUniverseVariable variable);
 
-    /// <summary>
-    ///  Adds a constraint to this problem.
-    /// </summary>
-    /// <param name="constraint"> The constraint to add.</param>
-    /// <see cref="IUniverseConstraint"/>
-    void AddConstraint(IUniverseConstraint constraint);
 
-    /// <summary>
-    ///  Gives the constraints in this problem.
-    /// </summary>
-    /// <returns> The constraints in this problem.</returns>
-    /// <see cref="IUniverseConstraint"/>
-    List<IUniverseConstraint> GetConstraints();
+        /// <summary>
+        /// Gives the variables in this problem.
+        /// </summary>
+        /// <returns>The variables in this problem.</returns>
+        /// <see cref="IUniverseVariable"/>
+        List<IUniverseVariable> GetVariables();
+
+        /// <summary>
+        ///  Adds a constraint to this problem.
+        /// </summary>
+        /// <param name="constraint"> The constraint to add.</param>
+        /// <see cref="IUniverseConstraint"/>
+        void AddConstraint(IUniverseConstraint constraint);
+
+        /// <summary>
+        ///  Gives the constraints in this problem.
+        /// </summary>
+        /// <returns> The constraints in this problem.</returns>
+        /// <see cref="IUniverseConstraint"/>
+        List<IUniverseConstraint> GetConstraints();
+    }
 }

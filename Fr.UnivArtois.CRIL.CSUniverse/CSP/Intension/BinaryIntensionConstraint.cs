@@ -19,45 +19,48 @@
 
 using Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The BinaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
-/// operator on two intension constraints.
-///
-///
-///</summary>
-public class BinaryIntensionConstraint : UniverseOperatorIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The left intension constraint on which an operator is applied.
-    ///</summary>
-    private IIntensionConstraint left;
-
-    ///<summary>
-    /// The right intension constraint on which an operator is applied.
-    ///</summary>
-    private IIntensionConstraint right;
-
-    ///<summary>
-    /// Creates a new BinaryIntensionConstraint.
+    /// The BinaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
+    /// operator on two intension constraints.
+    ///
     ///
     ///</summary>
-    ///<param name="op">The operator applied by the constraint.</param>
-    ///<param name="left">The left intension constraint on which the operator is applied.</param>
-    ///<param name="right">The right intension constraint on which the operator is applied.</param>
-    public BinaryIntensionConstraint(IUniverseOperator op, IIntensionConstraint left, IIntensionConstraint right) : base(op)
+    public class BinaryIntensionConstraint : UniverseOperatorIntensionConstraint
     {
-        this.left = left;
-        this.right = right;
+
+        ///<summary>
+        /// The left intension constraint on which an operator is applied.
+        ///</summary>
+        private IIntensionConstraint left;
+
+        ///<summary>
+        /// The right intension constraint on which an operator is applied.
+        ///</summary>
+        private IIntensionConstraint right;
+
+        ///<summary>
+        /// Creates a new BinaryIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="op">The operator applied by the constraint.</param>
+        ///<param name="left">The left intension constraint on which the operator is applied.</param>
+        ///<param name="right">The right intension constraint on which the operator is applied.</param>
+        public BinaryIntensionConstraint(IUniverseOperator op, IIntensionConstraint left, IIntensionConstraint right) :
+            base(op)
+        {
+            this.left = left;
+            this.right = right;
+        }
+
+        public override void Accept(IIntensionConstraintVisitor visitor)
+        {
+            this.left.Accept(visitor);
+            this.right.Accept(visitor);
+            visitor.Visit(this);
+        }
+
+
     }
-
-    public override void Accept(IIntensionConstraintVisitor visitor)
-    {
-        this.left.Accept(visitor);
-        this.right.Accept(visitor);
-        visitor.Visit(this);
-    }
-
-
 }

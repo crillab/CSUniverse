@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System;
+using System.Collections.Generic;
 using System.Numerics;
 using Fr.UnivArtois.CRIL.CSUniverse.Core;
 

@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
+
 namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
 {
     /// <summary>
@@ -27,33 +29,33 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
         ///<summary>
         /// The Boolean operator for computing the negation of a Boolean value.
         ///</summary>
-        public static UniverseBooleanOperator Not = new();
+        public static UniverseBooleanOperator Not = new UniverseBooleanOperator();
 
         ///<summary>
         /// The Boolean operator for computing the conjunction of several Boolean values.
         ///</summary>
-        public static UniverseBooleanOperator And = new();
+        public static UniverseBooleanOperator And = new UniverseBooleanOperator();
 
         ///<summary>
         /// The Boolean operator for computing the disjunction of several Boolean values.
         ///</summary>
-        public static UniverseBooleanOperator Or = new();
+        public static UniverseBooleanOperator Or = new UniverseBooleanOperator();
 
         ///<summary>
         /// The Boolean operator for computing the exclusive disjunction of several Boolean
         /// values.
         ///</summary>
-        public static UniverseBooleanOperator Xor = new();
+        public static UniverseBooleanOperator Xor = new UniverseBooleanOperator();
 
         ///<summary>
         /// The Boolean operator for computing the equivalence of several Boolean values.
         ///</summary>
-        public static UniverseBooleanOperator Equiv = new();
+        public static UniverseBooleanOperator Equiv = new UniverseBooleanOperator();
 
         ///<summary>
         /// The Boolean operator for computing the implication between two Boolean values.
         ///</summary>
-        public static UniverseBooleanOperator Impl = new();
+        public static UniverseBooleanOperator Impl = new UniverseBooleanOperator();
 
         public IEnumerable<IUniverseOperator> Values()
         {

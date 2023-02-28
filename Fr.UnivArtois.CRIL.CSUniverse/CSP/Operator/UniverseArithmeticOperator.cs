@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
+
 namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
 {
     /// <summary>
@@ -27,62 +29,62 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
         /// <summary>
         /// The arithmetic operator for computing the opposite of a value.
         /// </summary>
-        public static readonly UniverseArithmeticOperator Neg = new();
+        public static readonly UniverseArithmeticOperator Neg = new UniverseArithmeticOperator();
 
         /// <summary>
         /// The arithmetic operator for computing the absolute value of a value.
         /// </summary>
-        public static readonly UniverseArithmeticOperator Abs = new();
+        public static readonly UniverseArithmeticOperator Abs = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the addition of several values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Add = new();
+        public static readonly UniverseArithmeticOperator Add = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the subtraction of two values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Sub = new();
+        public static readonly UniverseArithmeticOperator Sub = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the multiplication of several values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Mult = new();
+        public static readonly UniverseArithmeticOperator Mult = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the division of two values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Div = new();
+        public static readonly UniverseArithmeticOperator Div = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the remainder of two values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Mod = new();
+        public static readonly UniverseArithmeticOperator Mod = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the square of a value.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Sqr = new();
+        public static readonly UniverseArithmeticOperator Sqr = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing a value raised to the power of another.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Pow = new();
+        public static readonly UniverseArithmeticOperator Pow = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the minimum of several values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Min = new();
+        public static readonly UniverseArithmeticOperator Min = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the maximum of several values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Max = new();
+        public static readonly UniverseArithmeticOperator Max = new UniverseArithmeticOperator();
 
         ///<summary>
         /// The arithmetic operator for computing the distance between two values.
         ///</summary>
-        public static readonly UniverseArithmeticOperator Dist = new();
+        public static readonly UniverseArithmeticOperator Dist = new UniverseArithmeticOperator();
 
         public IEnumerable<IUniverseOperator> Values()
         {

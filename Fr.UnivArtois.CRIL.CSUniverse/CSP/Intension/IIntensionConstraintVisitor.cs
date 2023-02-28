@@ -17,71 +17,73 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The IIntensionConstraintVisitor visits an intension constraint in order to compute its
-/// encoding using pseudo-Boolean constraints.
-///
-///
-///</summary>
-public interface IIntensionConstraintVisitor
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// Visits a unary constraint that appears in an {@code intension} constraint.
+    /// The IIntensionConstraintVisitor visits an intension constraint in order to compute its
+    /// encoding using pseudo-Boolean constraints.
+    ///
     ///
     ///</summary>
-    ///
-    /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
-    ///         a trivial inconsistency.
-    ///<param name="constr">The constraint to visit.</param>
-    void Visit(UnaryIntensionConstraint constr);
+    public interface IIntensionConstraintVisitor
+    {
 
-    ///<summary>
-    /// Visits a binary constraint that appears in an {@code intension} constraint.
-    ///
-    ///</summary>
-    ///
-    /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
-    ///         a trivial inconsistency.
-    ///<param name="constr">The constraint to visit.</param>
-    void Visit(BinaryIntensionConstraint constr);
+        ///<summary>
+        /// Visits a unary constraint that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
+        ///         a trivial inconsistency.
+        ///<param name="constr">The constraint to visit.</param>
+        void Visit(UnaryIntensionConstraint constr);
 
-    ///<summary>
-    /// Visits an n-ary constraint that appears in an {@code intension} constraint.
-    ///
-    ///</summary>
-    ///
-    /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
-    ///         a trivial inconsistency.
-    ///<param name="constr">The constraint to visit.</param>
-    void Visit(NaryIntensionConstraint constr);
+        ///<summary>
+        /// Visits a binary constraint that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
+        ///         a trivial inconsistency.
+        ///<param name="constr">The constraint to visit.</param>
+        void Visit(BinaryIntensionConstraint constr);
 
-    ///<summary>
-    /// Visits an if-then-else constraint that appears in an {@code intension} constraint.
-    ///
-    ///</summary>
-    ///
-    /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
-    ///         a trivial inconsistency.
-    ///<param name="ifThenElse">The constraint to visit.</param>
-    void Visit(IfThenElseIntensionConstraint ifThenElse);
+        ///<summary>
+        /// Visits an n-ary constraint that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
+        ///         a trivial inconsistency.
+        ///<param name="constr">The constraint to visit.</param>
+        void Visit(NaryIntensionConstraint constr);
 
-    ///<summary>
-    /// Visits a variable that appears in an {@code intension} constraint.
-    ///
-    ///</summary>
-    ///
-    ///<param name="variable">The variable to visit.</param>
-    void Visit(VariableIntensionConstraint variable);
+        ///<summary>
+        /// Visits an if-then-else constraint that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        /// @throws UniverseContradictionException If visiting (and encoding) the constraint results in
+        ///         a trivial inconsistency.
+        ///<param name="ifThenElse">The constraint to visit.</param>
+        void Visit(IfThenElseIntensionConstraint ifThenElse);
 
-    ///<summary>
-    /// Visits a constant that appears in an {@code intension} constraint.
-    ///
-    ///</summary>
-    ///
-    ///<param name="constant">The constant to visit.</param>
-    void Visit(ConstantIntensionConstraint constant);
+        ///<summary>
+        /// Visits a variable that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        ///<param name="variable">The variable to visit.</param>
+        void Visit(VariableIntensionConstraint variable);
+
+        ///<summary>
+        /// Visits a constant that appears in an {@code intension} constraint.
+        ///
+        ///</summary>
+        ///
+        ///<param name="constant">The constant to visit.</param>
+        void Visit(ConstantIntensionConstraint constant);
 
 
+    }
 }

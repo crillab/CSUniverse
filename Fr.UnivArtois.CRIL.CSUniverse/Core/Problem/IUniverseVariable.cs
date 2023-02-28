@@ -25,7 +25,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
         /// Gives the name of this variable.
         /// </summary>
         /// <returns> The name of this variable.</returns>
-        String GetName();
+        string GetName();
 
         /// <summary>
         /// Gives the identifier of this variable.

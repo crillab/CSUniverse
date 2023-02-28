@@ -17,54 +17,58 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
 using Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The NaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
-/// operator on several intension constraints.
-///
-///
-///</summary>
-public class NaryIntensionConstraint : UniverseOperatorIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The intension constraints on which an operator is applied.
-    ///</summary>
-    private IList<IIntensionConstraint> children;
-
-    ///<summary>
-    /// Creates a new NaryIntensionConstraint.
+    /// The NaryIntensionConstraint is an {@link IIntensionConstraint} that applies an
+    /// operator on several intension constraints.
+    ///
     ///
     ///</summary>
-    ///<param name="op">The operator applied by the constraint.</param>
-    ///<param name="children">The intension constraints on which the operator is applied.</param>
-    public NaryIntensionConstraint(IUniverseOperator op, IList<IIntensionConstraint> children) : base(op)
+    public class NaryIntensionConstraint : UniverseOperatorIntensionConstraint
     {
-        this.children = children;
-    }
 
+        ///<summary>
+        /// The intension constraints on which an operator is applied.
+        ///</summary>
+        private IList<IIntensionConstraint> children;
 
-    ///<summary>
-    /// Gives the arity of this constraints.
-    ///
-    ///<return>number of intension constraints on which the operator is applied.</return>
-    ///</summary>
-    public int GetArity()
-    {
-        return this.children.Count;
-    }
-
-
-    public override void Accept(IIntensionConstraintVisitor visitor)
-    {
-        foreach (var c in this.children)
+        ///<summary>
+        /// Creates a new NaryIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="op">The operator applied by the constraint.</param>
+        ///<param name="children">The intension constraints on which the operator is applied.</param>
+        public NaryIntensionConstraint(IUniverseOperator op, IList<IIntensionConstraint> children) : base(op)
         {
-            c.Accept(visitor);
+            this.children = children;
         }
-        visitor.Visit(this);
+
+
+        ///<summary>
+        /// Gives the arity of this constraints.
+        ///
+        ///<return>number of intension constraints on which the operator is applied.</return>
+        ///</summary>
+        public int GetArity()
+        {
+            return this.children.Count;
+        }
+
+
+        public override void Accept(IIntensionConstraintVisitor visitor)
+        {
+            foreach (var c in this.children)
+            {
+                c.Accept(visitor);
+            }
+
+            visitor.Visit(this);
+
+        }
 
     }
-
 }

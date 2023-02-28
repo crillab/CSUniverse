@@ -17,6 +17,7 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
 using System.Numerics;
 using Fr.UnivArtois.CRIL.CSUniverse.Csp;
 using Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
@@ -38,7 +39,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="id">The identifier of the variable to create.</param>
         ///<param name="min">The minimum value of the domain of the variable.</param>
         ///<param name="max">The maximum value of the domain of the variable.</param>
-        void NewVariable(String id, int min, int max);
+        void NewVariable(string id, int min, int max);
 
         ///<summary>
         /// Notifies this listener that a new variable is to be created.
@@ -47,7 +48,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="id">The identifier of the variable to create.</param>
         ///<param name="min">The minimum value of the domain of the variable.</param>
         ///<param name="max">The maximum value of the domain of the variable.</param>
-        void NewVariable(String id, BigInteger min, BigInteger max);
+        void NewVariable(string id, BigInteger min, BigInteger max);
 
         ///<summary>
         /// Notifies this listener that a new variable is to be created.
@@ -55,7 +56,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="id">The identifier of the variable to create.</param>
         ///<param name="values">The values of the domain of the variable.</param>
-        void NewVariable(String id, List<BigInteger> values);
+        void NewVariable(string id, List<BigInteger> values);
 
         ///<summary>
         /// Notifies this listener that an {@code instantiation} constraint is to be
@@ -67,7 +68,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to assign to the variable.</param>
-        void AddInstantiation(String variable, int value);
+        void AddInstantiation(string variable, int value);
 
         ///<summary>
         /// Notifies this listener that an {@code instantiation} constraint is to be
@@ -79,7 +80,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to assign to the variable.</param>
-        void AddInstantiation(String variable, BigInteger value);
+        void AddInstantiation(string variable, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that an {@code instantiation} constraint is to be
@@ -91,7 +92,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="values">The values to assign to the variables.</param>
-        void AddInstantiation(List<String> variables, List<BigInteger> values);
+        void AddInstantiation(List<string> variables, List<BigInteger> values);
 
         ///<summary>
         /// Notifies this listener that a {@code clause} constraint is to be added.
@@ -102,7 +103,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="negative">The (bool) variables appearing negatively in the clause.</param>
-        void AddClause(List<String> positive, List<String> negative);
+        void AddClause(List<string> positive, List<string> negative);
 
         ///<summary>
         /// Notifies this listener that a {@code logical} constraint is to be added.
@@ -113,7 +114,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variables">The (bool) variables on which the operator is applied.</param>
-        void AddLogical(UniverseBooleanOperator op, List<String> variables);
+        void AddLogical(UniverseBooleanOperator op, List<string> variables);
 
         ///<summary>
         /// Notifies this listener that a {@code logical} constraint is to be added.
@@ -128,8 +129,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variables">The (bool) variables on which the operator is applied.</param>
-        void AddLogical(String variable, bool equiv, UniverseBooleanOperator op,
-        List<String> variables);
+        void AddLogical(string variable, bool equiv, UniverseBooleanOperator op,
+        List<string> variables);
 
         ///<summary>
         /// Notifies this listener that a {@code logical} constraint is to be added.
@@ -145,7 +146,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="right">The value on the right-hand side of the comparison.</param>
-        void AddLogical(String variable, String left, UniverseRelationalOperator op,
+        void AddLogical(string variable, string left, UniverseRelationalOperator op,
         BigInteger right);
 
         ///<summary>
@@ -162,8 +163,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="right">The variable on the right-hand side of the comparison.</param>
-        void AddLogical(String variable, String left, UniverseRelationalOperator op,
-        String right);
+        void AddLogical(string variable, string left, UniverseRelationalOperator op,
+        string right);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -174,7 +175,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variables">The variables that should all be different.</param>
-        void AddAllDifferent(List<String> variables);
+        void AddAllDifferent(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -186,7 +187,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="except">The values not to consider in the constraint.</param>
-        void AddAllDifferent(List<String> variables, List<BigInteger> except);
+        void AddAllDifferent(List<string> variables, List<BigInteger> except);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -197,7 +198,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variableMatrix">The matrix of variables that should all be different.</param>
-        void AddAllDifferentMatrix(List<List<String>> variableMatrix);
+        void AddAllDifferentMatrix(List<List<string>> variableMatrix);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -209,7 +210,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="except">The values not to consider in the constraint.</param>
-        void AddAllDifferentMatrix(List<List<String>> variableMatrix, List<BigInteger> except);
+        void AddAllDifferentMatrix(List<List<string>> variableMatrix, List<BigInteger> except);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -220,7 +221,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variableLists">The lists of variables that should all be different.</param>
-        void AddAllDifferentList(List<List<String>> variableLists);
+        void AddAllDifferentList(List<List<string>> variableLists);
 
         ///<summary>
         /// Notifies this listener that an {@code all-different} constraint is to be
@@ -246,7 +247,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithConstantValuesAndConstantCounts(List<String> variables,
+        void AddCardinalityWithConstantValuesAndConstantCounts(List<string> variables,
         List<BigInteger> values,
         List<BigInteger> occurs, bool closed);
 
@@ -263,7 +264,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithConstantValuesAndConstantIntervalCounts(List<String> variables,
+        void AddCardinalityWithConstantValuesAndConstantIntervalCounts(List<string> variables,
         List<BigInteger> values,
         List<BigInteger> occursMin, List<BigInteger> occursMax, bool closed);
 
@@ -280,9 +281,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithConstantValuesAndVariableCounts(List<String> variables,
+        void AddCardinalityWithConstantValuesAndVariableCounts(List<string> variables,
         List<BigInteger> values,
-        List<String> occurs, bool closed);
+        List<string> occurs, bool closed);
 
         ///<summary>
         /// Notifies this listener that a {@code cardinality} constraint is to be added.
@@ -296,8 +297,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithVariableValuesAndConstantCounts(List<String> variables,
-        List<String> values,
+        void AddCardinalityWithVariableValuesAndConstantCounts(List<string> variables,
+        List<string> values,
         List<BigInteger> occurs, bool closed);
 
         ///<summary>
@@ -313,8 +314,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithVariableValuesAndConstantIntervalCounts(List<String> variables,
-        List<String> values,
+        void AddCardinalityWithVariableValuesAndConstantIntervalCounts(List<string> variables,
+        List<string> values,
         List<BigInteger> occursMin, List<BigInteger> occursMax, bool closed);
 
         ///<summary>
@@ -330,9 +331,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="closed">Whether only the values in {@code value} can be assigned to</param>
-        void AddCardinalityWithVariableValuesAndVariableCounts(List<String> variables,
-        List<String> values,
-        List<String> occurs, bool closed);
+        void AddCardinalityWithVariableValuesAndVariableCounts(List<string> variables,
+        List<string> values,
+        List<string> occurs, bool closed);
 
         ///<summary>
         /// Notifies this listener that a {@code channel} constraint is to be added.
@@ -343,7 +344,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="startIndex">The index at which the constraint starts.</param>
-        void AddChannel(List<String> variables, int startIndex);
+        void AddChannel(List<string> variables, int startIndex);
 
         ///<summary>
         /// Notifies this listener that a {@code channel} constraint is to be added.
@@ -357,7 +358,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable containing the index of the satisfied</param>
-        void AddChannel(List<String> variables, int startIndex, String value);
+        void AddChannel(List<string> variables, int startIndex, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code channel} constraint is to be added.
@@ -373,7 +374,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="otherStartIndex">The index at which the constraint starts on the second</param>
-        void AddChannel(List<String> variables, int startIndex, List<String> otherVariables,
+        void AddChannel(List<string> variables, int startIndex, List<string> otherVariables,
         int otherStartIndex);
 
         ///<summary>
@@ -387,7 +388,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The minimum number of times the value can be assigned among</param>
-        void AddAtLeast(List<String> variables, BigInteger value, BigInteger count);
+        void AddAtLeast(List<string> variables, BigInteger value, BigInteger count);
 
         ///<summary>
         /// Notifies this listener that an {@code exactly} constraint is to be added.
@@ -400,7 +401,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The number of times the value can be assigned among the</param>
-        void AddExactly(List<String> variables, BigInteger value, BigInteger count);
+        void AddExactly(List<string> variables, BigInteger value, BigInteger count);
 
         ///<summary>
         /// Notifies this listener that an {@code exactly} constraint is to be added.
@@ -413,7 +414,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The variable encoding the number of times the value can be</param>
-        void AddExactly(List<String> variables, BigInteger value, String count);
+        void AddExactly(List<string> variables, BigInteger value, string count);
 
         ///<summary>
         /// Notifies this listener that an {@code among} constraint is to be added.
@@ -426,7 +427,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The number of times the value can be assigned among the</param>
-        void AddAmong(List<String> variables, List<BigInteger> values, BigInteger count);
+        void AddAmong(List<string> variables, List<BigInteger> values, BigInteger count);
 
         ///<summary>
         /// Notifies this listener that an {@code among} constraint is to be added.
@@ -439,7 +440,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The variable encoding the number of times the values can be</param>
-        void AddAmong(List<String> variables, List<BigInteger> values, String count);
+        void AddAmong(List<string> variables, List<BigInteger> values, string count);
 
         ///<summary>
         /// Notifies this listener that an {@code at-most} constraint is to be added.
@@ -452,7 +453,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The maximum number of times the value can be assigned among</param>
-        void AddAtMost(List<String> variables, BigInteger value, BigInteger count);
+        void AddAtMost(List<string> variables, BigInteger value, BigInteger count);
 
         ///<summary>
         /// Notifies this listener that a {@code count} constraint is to be added.
@@ -467,7 +468,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The number of times the values can be assigned among the</param>
-        void AddCountWithConstantValues(List<String> variables, List<BigInteger> values,
+        void AddCountWithConstantValues(List<string> variables, List<BigInteger> values,
         UniverseRelationalOperator op, BigInteger count);
 
         ///<summary>
@@ -483,8 +484,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The variable encoding the number of times the values can be</param>
-        void AddCountWithConstantValues(List<String> variables, List<BigInteger> values,
-        UniverseRelationalOperator op, String count);
+        void AddCountWithConstantValues(List<string> variables, List<BigInteger> values,
+        UniverseRelationalOperator op, string count);
 
         ///<summary>
         /// Notifies this listener that a {@code count} constraint is to be added.
@@ -500,7 +501,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The number of times the values can be assigned among the</param>
-        void AddCountWithVariableValues(List<String> variables, List<String> values,
+        void AddCountWithVariableValues(List<string> variables, List<string> values,
         UniverseRelationalOperator op,
         BigInteger count);
 
@@ -518,9 +519,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="count">The variable encoding the number of times the values can be</param>
-        void AddCountWithVariableValues(List<String> variables, List<String> values,
+        void AddCountWithVariableValues(List<string> variables, List<string> values,
         UniverseRelationalOperator op,
-        String count);
+        string count);
 
         ///<summary>
         /// Notifies this listener that a {@code count} constraint is to be added.
@@ -554,7 +555,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="count">The variable encoding the number of times the values can</param>
         void AddCountIntensionWithConstantValues(List<IIntensionConstraint> expressions,
         List<BigInteger> values,
-        UniverseRelationalOperator op, String count);
+        UniverseRelationalOperator op, string count);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -568,7 +569,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsConstantHeights(List<String> origins, List<BigInteger> lengths,
+        void AddCumulativeConstantLengthsConstantHeights(List<string> origins, List<BigInteger> lengths,
         List<BigInteger> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -584,8 +585,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsConstantHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> ends,
+        void AddCumulativeConstantLengthsConstantHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> ends,
         List<BigInteger> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -600,8 +601,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsConstantHeights(List<String> origins, List<BigInteger> lengths,
-        List<BigInteger> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeConstantLengthsConstantHeights(List<string> origins, List<BigInteger> lengths,
+        List<BigInteger> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -616,9 +617,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsConstantHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> ends,
-        List<BigInteger> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeConstantLengthsConstantHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> ends,
+        List<BigInteger> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -632,8 +633,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsVariableHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> heights, UniverseRelationalOperator op, BigInteger value);
+        void AddCumulativeConstantLengthsVariableHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -648,9 +649,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsVariableHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> ends,
-        List<String> heights, UniverseRelationalOperator op, BigInteger value);
+        void AddCumulativeConstantLengthsVariableHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> ends,
+        List<string> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -664,8 +665,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsVariableHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeConstantLengthsVariableHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -680,9 +681,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeConstantLengthsVariableHeights(List<String> origins, List<BigInteger> lengths,
-        List<String> ends,
-        List<String> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeConstantLengthsVariableHeights(List<string> origins, List<BigInteger> lengths,
+        List<string> ends,
+        List<string> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -696,7 +697,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsConstantHeights(List<String> origins, List<String> lengths,
+        void AddCumulativeVariableLengthsConstantHeights(List<string> origins, List<string> lengths,
         List<BigInteger> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -712,8 +713,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsConstantHeights(List<String> origins, List<String> lengths,
-        List<String> ends,
+        void AddCumulativeVariableLengthsConstantHeights(List<string> origins, List<string> lengths,
+        List<string> ends,
         List<BigInteger> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -728,8 +729,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsConstantHeights(List<String> origins, List<String> lengths,
-        List<BigInteger> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeVariableLengthsConstantHeights(List<string> origins, List<string> lengths,
+        List<BigInteger> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -744,9 +745,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsConstantHeights(List<String> origins, List<String> lengths,
-        List<String> ends,
-        List<BigInteger> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeVariableLengthsConstantHeights(List<string> origins, List<string> lengths,
+        List<string> ends,
+        List<BigInteger> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -760,8 +761,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsVariableHeights(List<String> origins, List<String> lengths,
-        List<String> heights,
+        void AddCumulativeVariableLengthsVariableHeights(List<string> origins, List<string> lengths,
+        List<string> heights,
         UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -777,9 +778,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsVariableHeights(List<String> origins, List<String> lengths,
-        List<String> ends,
-        List<String> heights, UniverseRelationalOperator op, BigInteger value);
+        void AddCumulativeVariableLengthsVariableHeights(List<string> origins, List<string> lengths,
+        List<string> ends,
+        List<string> heights, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -793,9 +794,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsVariableHeights(List<String> origins, List<String> lengths,
-        List<String> heights,
-        UniverseRelationalOperator op, String value);
+        void AddCumulativeVariableLengthsVariableHeights(List<string> origins, List<string> lengths,
+        List<string> heights,
+        UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code cumulative} constraint is to be added.
@@ -810,9 +811,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value for the cumulative use.</param>
-        void AddCumulativeVariableLengthsVariableHeights(List<String> origins, List<String> lengths,
-        List<String> ends,
-        List<String> heights, UniverseRelationalOperator op, String value);
+        void AddCumulativeVariableLengthsVariableHeights(List<string> origins, List<string> lengths,
+        List<string> ends,
+        List<string> heights, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -823,7 +824,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value that must appear among the variables.</param>
-        void AddElement(List<String> variables, BigInteger value);
+        void AddElement(List<string> variables, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -835,7 +836,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value that must appear among the</param>
-        void AddElement(List<String> variables, String value);
+        void AddElement(List<string> variables, string value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -848,7 +849,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to look for.</param>
-        void AddElementConstantValues(List<BigInteger> values, int startIndex, String index,
+        void AddElementConstantValues(List<BigInteger> values, int startIndex, string index,
         BigInteger value);
 
         ///<summary>
@@ -862,8 +863,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variable">The variable whose value is to be looked for.</param>
-        void AddElementConstantValues(List<BigInteger> values, int startIndex, String index,
-        String variable);
+        void AddElementConstantValues(List<BigInteger> values, int startIndex, string index,
+        string variable);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -876,7 +877,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to look for.</param>
-        void AddElement(List<String> variables, int startIndex, String index, BigInteger value);
+        void AddElement(List<string> variables, int startIndex, string index, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -890,7 +891,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variable">The variable whose value is to be looked for.</param>
-        void AddElement(List<String> values, int startIndex, String index, String variable);
+        void AddElement(List<string> values, int startIndex, string index, string variable);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -909,9 +910,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to look for inside the matrix.</param>
-        void AddElementConstantMatrix(List<List<BigInteger>> matrix, int startRowIndex, String rowIndex,
+        void AddElementConstantMatrix(List<List<BigInteger>> matrix, int startRowIndex, string rowIndex,
         int startColIndex,
-        String colIndex, BigInteger value);
+        string colIndex, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -931,9 +932,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value to look for inside the</param>
-        void AddElementConstantMatrix(List<List<BigInteger>> matrix, int startRowIndex, String rowIndex,
+        void AddElementConstantMatrix(List<List<BigInteger>> matrix, int startRowIndex, string rowIndex,
         int startColIndex,
-        String colIndex, String value);
+        string colIndex, string value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -954,9 +955,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value to look for inside the</param>
-        void AddElementMatrix(List<List<String>> matrix, int startRowIndex, String rowIndex,
+        void AddElementMatrix(List<List<string>> matrix, int startRowIndex, string rowIndex,
         int startColIndex,
-        String colIndex, BigInteger value);
+        string colIndex, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that an {@code element} constraint is to be added.
@@ -977,9 +978,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value to look for inside the</param>
-        void AddElementMatrix(List<List<String>> matrix, int startRowIndex, String rowIndex,
+        void AddElementMatrix(List<List<string>> matrix, int startRowIndex, string rowIndex,
         int startColIndex,
-        String colIndex, String value);
+        string colIndex, string value);
 
         ///<summary>
         /// Notifies this listener that an {@code extension} constraint describing the
@@ -991,7 +992,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="allowedValues">The values allowed for the variable.</param>
-        void AddSupport(String variable, List<BigInteger> allowedValues);
+        void AddSupport(string variable, List<BigInteger> allowedValues);
 
         ///<summary>
         /// Notifies this listener that an {@code extension} constraint describing the
@@ -1005,7 +1006,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="allowedValues">The values allowed for the tuple variables. Values equal</param>
-        void AddSupport(List<String> variableTuple, List<List<BigInteger>> allowedValues);
+        void AddSupport(List<string> variableTuple, List<List<BigInteger>> allowedValues);
 
         ///<summary>
         /// Notifies this listener that an {@code extension} constraint describing the
@@ -1017,7 +1018,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="forbiddenValues">The values forbidden for the variable.</param>
-        void AddConflicts(String variable, List<BigInteger> forbiddenValues);
+        void AddConflicts(string variable, List<BigInteger> forbiddenValues);
 
         ///<summary>
         /// Notifies this listener that an {@code extension} constraint describing the
@@ -1032,7 +1033,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="forbiddenValues">The values forbidden for the tuple variables. Values</param>
-        void AddConflicts(List<String> variableTuple, List<List<BigInteger>> forbiddenValues);
+        void AddConflicts(List<string> variableTuple, List<List<BigInteger>> forbiddenValues);
 
         ///<summary>
         /// Notifies this listener that an {@code intension} constraint is to be added.
@@ -1054,7 +1055,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to compare the variable with.</param>
-        void AddPrimitive(String variable, UniverseRelationalOperator op, BigInteger value);
+        void AddPrimitive(string variable, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code primitive} constraint is to be added.
@@ -1069,7 +1070,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightHandSide">The value on the right-hand side of the constraint.</param>
-        void AddPrimitive(String variable, UniverseArithmeticOperator arithOp, BigInteger leftHandSide,
+        void AddPrimitive(string variable, UniverseArithmeticOperator arithOp, BigInteger leftHandSide,
         UniverseRelationalOperator relOp, BigInteger rightHandSide);
 
         ///<summary>
@@ -1085,7 +1086,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightHandSide">The value on the right-hand side of the constraint.</param>
-        void AddPrimitive(String variable, UniverseArithmeticOperator arithOp, String leftHandSide,
+        void AddPrimitive(string variable, UniverseArithmeticOperator arithOp, string leftHandSide,
         UniverseRelationalOperator relOp, BigInteger rightHandSide);
 
         ///<summary>
@@ -1101,8 +1102,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightHandSide">The variable on the right-hand side of the constraint.</param>
-        void AddPrimitive(String variable, UniverseArithmeticOperator arithOp, BigInteger leftHandSide,
-        UniverseRelationalOperator relOp, String rightHandSide);
+        void AddPrimitive(string variable, UniverseArithmeticOperator arithOp, BigInteger leftHandSide,
+        UniverseRelationalOperator relOp, string rightHandSide);
 
         ///<summary>
         /// Notifies this listener that a {@code primitive} constraint is to be added.
@@ -1117,8 +1118,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightHandSide">The variable on the right-hand side of the constraint.</param>
-        void AddPrimitive(String variable, UniverseArithmeticOperator arithOp, String leftHandSide,
-        UniverseRelationalOperator relOp, String rightHandSide);
+        void AddPrimitive(string variable, UniverseArithmeticOperator arithOp, string leftHandSide,
+        UniverseRelationalOperator relOp, string rightHandSide);
 
         ///<summary>
         /// Notifies this listener that a {@code primitive} constraint is to be added.
@@ -1130,7 +1131,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightHandSide">The variable on the right-hand side of the constraint.</param>
-        void AddPrimitive(UniverseArithmeticOperator arithOp, String variable, String rightHandSide);
+        void AddPrimitive(UniverseArithmeticOperator arithOp, string variable, string rightHandSide);
 
         ///<summary>
         /// Notifies this listener that a {@code primitive} constraint is to be added.
@@ -1143,7 +1144,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="values">The set of values on which the operator is applied.</param>
-        void AddPrimitive(String variable, UniverseSetBelongingOperator op,
+        void AddPrimitive(string variable, UniverseSetBelongingOperator op,
         List<BigInteger> values);
 
         ///<summary>
@@ -1160,7 +1161,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="max">The maximum value of the range on which the operator is</param>
-        void AddPrimitive(String variable, UniverseSetBelongingOperator op, BigInteger min,
+        void AddPrimitive(string variable, UniverseSetBelongingOperator op, BigInteger min,
         BigInteger max);
 
         ///<summary>
@@ -1173,7 +1174,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to compare the minimum with.</param>
-        void AddMinimum(List<String> variables, UniverseRelationalOperator op, BigInteger value);
+        void AddMinimum(List<string> variables, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code minimum} constraint is to be added.
@@ -1185,7 +1186,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value to compare the minimum with.</param>
-        void AddMinimum(List<String> variables, UniverseRelationalOperator op, String value);
+        void AddMinimum(List<string> variables, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code minimum} constraint is to be added.
@@ -1218,7 +1219,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="value">The variable encoding the value to compare the</param>
         void AddMinimumIntension(List<IIntensionConstraint> intensionConstraints,
         UniverseRelationalOperator op,
-        String value);
+        string value);
 
         ///<summary>
         /// Notifies this listener that a {@code maximum} constraint is to be added.
@@ -1230,7 +1231,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value to compare the maximum with.</param>
-        void AddMaximum(List<String> variables, UniverseRelationalOperator op, BigInteger value);
+        void AddMaximum(List<string> variables, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code maximum} constraint is to be added.
@@ -1242,7 +1243,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The variable encoding the value to compare the maximum with.</param>
-        void AddMaximum(List<String> variables, UniverseRelationalOperator op, String value);
+        void AddMaximum(List<string> variables, UniverseRelationalOperator op, string value);
 
         ///<summary>
         /// Notifies this listener that a {@code maximum} constraint is to be added.
@@ -1275,7 +1276,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="value">The variable encoding the value to compare the</param>
         void AddMaximumIntension(List<IIntensionConstraint> intensionConstraints,
         UniverseRelationalOperator op,
-        String value);
+        string value);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1286,7 +1287,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="length">The length associated to the variables.</param>
-        void AddNoOverlap(List<String> variables, List<BigInteger> length);
+        void AddNoOverlap(List<string> variables, List<BigInteger> length);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1298,7 +1299,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="zeroIgnored">Whether {@code 0}-lengths should be ignored.</param>
-        void AddNoOverlap(List<String> variables, List<BigInteger> length, bool zeroIgnored);
+        void AddNoOverlap(List<string> variables, List<BigInteger> length, bool zeroIgnored);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1309,7 +1310,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="length">The variable for the length of the other variables.</param>
-        void AddNoOverlapVariableLength(List<String> variables, List<String> length);
+        void AddNoOverlapVariableLength(List<string> variables, List<string> length);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1321,7 +1322,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="zeroIgnored">Whether {@code 0}-lengths should be ignored.</param>
-        void AddNoOverlapVariableLength(List<String> variables, List<String> length,
+        void AddNoOverlapVariableLength(List<string> variables, List<string> length,
         bool zeroIgnored);
 
         ///<summary>
@@ -1333,7 +1334,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="length">The length associated to the variables.</param>
-        void AddMultiDimensionalNoOverlap(List<List<String>> variables, List<List<BigInteger>> length);
+        void AddMultiDimensionalNoOverlap(List<List<string>> variables, List<List<BigInteger>> length);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1345,7 +1346,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="zeroIgnored">Whether {@code 0}-lengths should be ignored.</param>
-        void AddMultiDimensionalNoOverlap(List<List<String>> variables, List<List<BigInteger>> length,
+        void AddMultiDimensionalNoOverlap(List<List<string>> variables, List<List<BigInteger>> length,
         bool zeroIgnored);
 
         ///<summary>
@@ -1357,8 +1358,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="length">The variable for the length of the other variables.</param>
-        void AddMultiDimensionalNoOverlapVariableLength(List<List<String>> variables,
-        List<List<String>> length);
+        void AddMultiDimensionalNoOverlapVariableLength(List<List<string>> variables,
+        List<List<string>> length);
 
         ///<summary>
         /// Notifies this listener that a {@code no-overlap} constraint is to be added.
@@ -1370,8 +1371,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="zeroIgnored">Whether {@code 0}-lengths should be ignored.</param>
-        void AddMultiDimensionalNoOverlapVariableLength(List<List<String>> variables,
-        List<List<String>> length,
+        void AddMultiDimensionalNoOverlapVariableLength(List<List<string>> variables,
+        List<List<string>> length,
         bool zeroIgnored);
 
         ///<summary>
@@ -1384,7 +1385,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="nb">The number of distinct values to count.</param>
-        void AddNValues(List<String> variables, UniverseRelationalOperator op, BigInteger nb);
+        void AddNValues(List<string> variables, UniverseRelationalOperator op, BigInteger nb);
 
         ///<summary>
         /// Notifies this listener that an {@code n-values} constraint is to be added.
@@ -1397,7 +1398,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="except">The values that should not be counted.</param>
-        void AddNValuesExcept(List<String> variables, UniverseRelationalOperator op,
+        void AddNValuesExcept(List<string> variables, UniverseRelationalOperator op,
         BigInteger nb,
         List<BigInteger> except);
 
@@ -1411,7 +1412,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="nb">The variable counting the number of distinct values.</param>
-        void AddNValues(List<String> variables, UniverseRelationalOperator op, String nb);
+        void AddNValues(List<string> variables, UniverseRelationalOperator op, string nb);
 
         ///<summary>
         /// Notifies this listener that an {@code n-values} constraint is to be added.
@@ -1424,7 +1425,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="except">The values that should not be counted.</param>
-        void AddNValuesExcept(List<String> variables, UniverseRelationalOperator op, String nb,
+        void AddNValuesExcept(List<string> variables, UniverseRelationalOperator op, string nb,
         List<BigInteger> except);
 
         ///<summary>
@@ -1452,7 +1453,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///         trivial inconsistency.
         ///<param name="nb">The variable counting the number of distinct values.</param>
         void AddNValuesIntension(List<IIntensionConstraint> expressions,
-        UniverseRelationalOperator op, String nb);
+        UniverseRelationalOperator op, string nb);
 
         ///<summary>
         /// Notifies this listener that an {@code ordered} constraint is to be added.
@@ -1463,7 +1464,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="op">The relational operator defining the order of the variables.</param>
-        void AddOrdered(List<String> variables, UniverseRelationalOperator op);
+        void AddOrdered(List<string> variables, UniverseRelationalOperator op);
 
         ///<summary>
         /// Notifies this listener that an {@code ordered} constraint is to be added.
@@ -1476,7 +1477,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="op">The relational operator defining the order of the variables.</param>
-        void AddOrderedWithConstantLength(List<String> variables, List<BigInteger> lengths,
+        void AddOrderedWithConstantLength(List<string> variables, List<BigInteger> lengths,
         UniverseRelationalOperator op);
 
         ///<summary>
@@ -1490,7 +1491,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="op">The relational operator defining the order of the variables.</param>
-        void AddOrderedWithVariableLength(List<String> variables, List<String> lengths,
+        void AddOrderedWithVariableLength(List<string> variables, List<string> lengths,
         UniverseRelationalOperator op);
 
         ///<summary>
@@ -1501,7 +1502,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variables">The variables that should all be equal.</param>
-        void AddAllEqual(List<String> variables);
+        void AddAllEqual(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an {@code all-equal} constraint is to be added.
@@ -1522,7 +1523,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="variables">The variables that should not be all equal.</param>
-        void AddNotAllEqual(List<String> variables);
+        void AddNotAllEqual(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an {@code lex} constraint is to be added.
@@ -1534,7 +1535,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="op">The relational operator defining the order of the tuples.</param>
-        void AddLex(List<List<String>> tuples, UniverseRelationalOperator op);
+        void AddLex(List<List<string>> tuples, UniverseRelationalOperator op);
 
         ///<summary>
         /// Notifies this listener that an {@code lex-matrix} constraint is to be added.
@@ -1546,7 +1547,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="op">The relational operator defining the order in the matrix.</param>
-        void AddLexMatrix(List<List<String>> matrix, UniverseRelationalOperator op);
+        void AddLexMatrix(List<List<string>> matrix, UniverseRelationalOperator op);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1559,7 +1560,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="max">The maximum value of the range.</param>
-        void AddSum(List<String> variables, UniverseSetBelongingOperator op, BigInteger min,
+        void AddSum(List<string> variables, UniverseSetBelongingOperator op, BigInteger min,
         BigInteger max);
 
         ///<summary>
@@ -1575,7 +1576,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="max">The maximum value of the range..</param>
-        void AddSum(List<String> variables, List<BigInteger> coefficients,
+        void AddSum(List<string> variables, List<BigInteger> coefficients,
         UniverseSetBelongingOperator op,
         BigInteger min, BigInteger max);
 
@@ -1589,7 +1590,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="values">The set of values.</param>
-        void AddSum(List<String> variables, UniverseSetBelongingOperator op,
+        void AddSum(List<string> variables, UniverseSetBelongingOperator op,
         List<BigInteger> values);
 
         ///<summary>
@@ -1604,7 +1605,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="values">The set of values.</param>
-        void AddSum(List<String> variables, List<BigInteger> coefficients,
+        void AddSum(List<string> variables, List<BigInteger> coefficients,
         UniverseSetBelongingOperator op,
         List<BigInteger> values);
 
@@ -1683,7 +1684,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="max">The maximum value of the range.</param>
-        void AddSumWithVariableCoefficients(List<String> variables, List<String> coefficients,
+        void AddSumWithVariableCoefficients(List<string> variables, List<string> coefficients,
         UniverseSetBelongingOperator op, BigInteger min, BigInteger max);
 
         ///<summary>
@@ -1698,7 +1699,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="values">The set of values.</param>
-        void AddSumWithVariableCoefficients(List<String> variables, List<String> coefficients,
+        void AddSumWithVariableCoefficients(List<string> variables, List<string> coefficients,
         UniverseSetBelongingOperator op, List<BigInteger> values);
 
         ///<summary>
@@ -1715,7 +1716,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///         trivial inconsistency.
         ///<param name="max">The maximum value of the range.</param>
         void AddSumIntensionWithVariableCoefficients(List<IIntensionConstraint> intensionConstraints,
-        List<String> coefficients, UniverseSetBelongingOperator op, BigInteger min,
+        List<string> coefficients, UniverseSetBelongingOperator op, BigInteger min,
         BigInteger max);
 
         ///<summary>
@@ -1731,7 +1732,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///         trivial inconsistency.
         ///<param name="values">The set of values</param>
         void AddSumIntensionWithVariableCoefficients(List<IIntensionConstraint> intensionConstraints,
-        List<String> coefficients, UniverseSetBelongingOperator op,
+        List<string> coefficients, UniverseSetBelongingOperator op,
         List<BigInteger> values);
 
         ///<summary>
@@ -1744,7 +1745,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value of the right-hand side of the constraint.</param>
-        void AddSum(List<String> variables, UniverseRelationalOperator op, BigInteger value);
+        void AddSum(List<string> variables, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1758,7 +1759,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value of the right-hand side of the constraint.</param>
-        void AddSum(List<String> variables, List<BigInteger> coefficients,
+        void AddSum(List<string> variables, List<BigInteger> coefficients,
         UniverseRelationalOperator op,
         BigInteger value);
 
@@ -1772,7 +1773,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightVariable">The variable on the right-hand side of the constraint.</param>
-        void AddSum(List<String> variables, UniverseRelationalOperator op, String rightVariable);
+        void AddSum(List<string> variables, UniverseRelationalOperator op, string rightVariable);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1786,9 +1787,9 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightVariable">The variable on the right-hand side of the constraint.</param>
-        void AddSum(List<String> variables, List<BigInteger> coefficients,
+        void AddSum(List<string> variables, List<BigInteger> coefficients,
         UniverseRelationalOperator op,
-        String rightVariable);
+        string rightVariable);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1835,7 +1836,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="rightVariable">The variable on the right-hand side of the</param>
         void AddSumIntension(List<IIntensionConstraint> intensionConstraints,
         UniverseRelationalOperator op,
-        String rightVariable);
+        string rightVariable);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1852,7 +1853,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///<param name="rightVariable">The variable on the right-hand side of the</param>
         void AddSumIntension(List<IIntensionConstraint> intensionConstraints,
         List<BigInteger> coefficients,
-        UniverseRelationalOperator op, String rightVariable);
+        UniverseRelationalOperator op, string rightVariable);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1866,7 +1867,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="value">The value of the right-hand side of the constraint.</param>
-        void AddSumWithVariableCoefficients(List<String> variables, List<String> coefficients,
+        void AddSumWithVariableCoefficients(List<string> variables, List<string> coefficients,
         UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
@@ -1881,8 +1882,8 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         /// @throws UniverseContradictionException If adding the constraint results in a
         ///         trivial inconsistency.
         ///<param name="rightVariable">The variable on the right-hand side of the constraint.</param>
-        void AddSumWithVariableCoefficients(List<String> variables, List<String> coefficients,
-        UniverseRelationalOperator op, String rightVariable);
+        void AddSumWithVariableCoefficients(List<string> variables, List<string> coefficients,
+        UniverseRelationalOperator op, string rightVariable);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1898,7 +1899,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///         trivial inconsistency.
         ///<param name="value">The value of the right-hand side of the</param>
         void AddSumIntensionWithVariableCoefficients(List<IIntensionConstraint> intensionConstraints,
-        List<String> coefficients, UniverseRelationalOperator op, BigInteger value);
+        List<string> coefficients, UniverseRelationalOperator op, BigInteger value);
 
         ///<summary>
         /// Notifies this listener that a {@code sum} constraint is to be added.
@@ -1914,19 +1915,19 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///         trivial inconsistency.
         ///<param name="rightVariable">The variable on the right-hand side of the</param>
         void AddSumIntensionWithVariableCoefficients(List<IIntensionConstraint> intensionConstraints,
-        List<String> coefficients, UniverseRelationalOperator op, String rightVariable);
+        List<string> coefficients, UniverseRelationalOperator op, string rightVariable);
 
-        void AddRegular(List<String> list, List<UniverseTransition> transitions,
-        String startState, List<String> finalStates);
+        void AddRegular(List<string> list, List<UniverseTransition> transitions,
+        string startState, List<string> finalStates);
 
-        void AddMdd(List<String> list, List<UniverseTransition> transitions);
+        void AddMdd(List<string> list, List<UniverseTransition> transitions);
 
 
-        void AddCircuit(List<String> list, int startIndex);
+        void AddCircuit(List<string> list, int startIndex);
 
-        void AddCircuit(List<String> list, int startIndex, int size);
+        void AddCircuit(List<string> list, int startIndex, int size);
 
-        void AddCircuit(List<String> list, int startIndex, String size);
+        void AddCircuit(List<string> list, int startIndex, string size);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -1934,7 +1935,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variable">The variable to minimize the value of.</param>
-        void MinimizeVariable(String variable);
+        void MinimizeVariable(string variable);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -1942,7 +1943,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variable">The variable to maximize the value of.</param>
-        void MaximizeVariable(String variable);
+        void MaximizeVariable(string variable);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -1966,7 +1967,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to minimize the sum of.</param>
-        void MinimizeSum(List<String> variables);
+        void MinimizeSum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -1975,7 +1976,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to minimize the sum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the sum.</param>
-        void MinimizeSum(List<String> variables, List<BigInteger> coefficients);
+        void MinimizeSum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2001,7 +2002,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to maximize the sum of.</param>
-        void MaximizeSum(List<String> variables);
+        void MaximizeSum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2010,7 +2011,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to maximize the sum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the sum.</param>
-        void MaximizeSum(List<String> variables, List<BigInteger> coefficients);
+        void MaximizeSum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2036,7 +2037,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to minimize the product of.</param>
-        void MinimizeProduct(List<String> variables);
+        void MinimizeProduct(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2045,7 +2046,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to minimize the product of.</param>
         ///<param name="coefficients">The coefficients of the variables in the product.</param>
-        void MinimizeProduct(List<String> variables, List<BigInteger> coefficients);
+        void MinimizeProduct(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2071,7 +2072,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to maximize the product of.</param>
-        void MaximizeProduct(List<String> variables);
+        void MaximizeProduct(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2080,7 +2081,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to maximize the product of.</param>
         ///<param name="coefficients">The coefficients of the variables in the product.</param>
-        void MaximizeProduct(List<String> variables, List<BigInteger> coefficients);
+        void MaximizeProduct(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2106,7 +2107,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to minimize the minimum of.</param>
-        void MinimizeMinimum(List<String> variables);
+        void MinimizeMinimum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2115,7 +2116,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to minimize the minimum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the minimum.</param>
-        void MinimizeMinimum(List<String> variables, List<BigInteger> coefficients);
+        void MinimizeMinimum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2141,7 +2142,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to maximize the minimum of.</param>
-        void MaximizeMinimum(List<String> variables);
+        void MaximizeMinimum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2150,7 +2151,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to maximize the minimum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the minimum.</param>
-        void MaximizeMinimum(List<String> variables, List<BigInteger> coefficients);
+        void MaximizeMinimum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2176,7 +2177,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to minimize the maximum of.</param>
-        void MinimizeMaximum(List<String> variables);
+        void MinimizeMaximum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2185,7 +2186,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to minimize the maximum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the maximum.</param>
-        void MinimizeMaximum(List<String> variables, List<BigInteger> coefficients);
+        void MinimizeMaximum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2211,7 +2212,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to maximize the maximum of.</param>
-        void MaximizeMaximum(List<String> variables);
+        void MaximizeMaximum(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2220,7 +2221,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to maximize the maximum of.</param>
         ///<param name="coefficients">The coefficients of the variables in the maximum.</param>
-        void MaximizeMaximum(List<String> variables, List<BigInteger> coefficients);
+        void MaximizeMaximum(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2246,7 +2247,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to minimize the number of values of.</param>
-        void MinimizeNValues(List<String> variables);
+        void MinimizeNValues(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2255,7 +2256,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to minimize the number of values of.</param>
         ///<param name="coefficients">The coefficients of the variables.</param>
-        void MinimizeNValues(List<String> variables, List<BigInteger> coefficients);
+        void MinimizeNValues(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to minimize
@@ -2281,7 +2282,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///
         ///</summary>
         ///<param name="variables">The variables to maximize the number of values of.</param>
-        void MaximizeNValues(List<String> variables);
+        void MaximizeNValues(List<string> variables);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2290,7 +2291,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         ///</summary>
         ///<param name="variables">The variables to maximize the number of values of.</param>
         ///<param name="coefficients">The coefficients of the variables.</param>
-        void MaximizeNValues(List<String> variables, List<BigInteger> coefficients);
+        void MaximizeNValues(List<string> variables, List<BigInteger> coefficients);
 
         ///<summary>
         /// Notifies this listener that an objective function is to be added to maximize
@@ -2310,7 +2311,7 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP
         void MaximizeExpressionNValues(List<IIntensionConstraint> expressions,
         List<BigInteger> coefficients);
 
-        void DecisionVariables(List<String> variables);
+        void DecisionVariables(List<string> variables);
     }
 
 }

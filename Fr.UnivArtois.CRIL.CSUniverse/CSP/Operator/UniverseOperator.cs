@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
+
 namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
 {
     /// <summary>

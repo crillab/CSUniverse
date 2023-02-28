@@ -17,14 +17,16 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The IIntensionConstraint defines an interface for representing the abstract syntax tree
-/// of an intension constraint, to allow its encoding using pseudo-Boolean constraints
-/// and/or clauses.
-///</summary>
-public interface IIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-    void Accept(IIntensionConstraintVisitor visitor);
+    ///<summary>
+    /// The IIntensionConstraint defines an interface for representing the abstract syntax tree
+    /// of an intension constraint, to allow its encoding using pseudo-Boolean constraints
+    /// and/or clauses.
+    ///</summary>
+    public interface IIntensionConstraint
+    {
+        void Accept(IIntensionConstraintVisitor visitor);
 
+    }
 }

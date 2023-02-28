@@ -17,6 +17,8 @@
 // If not, see {@link http://www.gnu.org/licenses}.
 //
 
+using System.Collections.Generic;
+
 namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
 {
     /// <summary>
@@ -29,32 +31,32 @@ namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
         ///<summary>
         /// The lesser-than ({@code <}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Lt = new();
+        public static readonly UniverseRelationalOperator Lt = new UniverseRelationalOperator();
 
         ///<summary>
         /// The lesser-than-or-equal ({@code <=}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Le = new();
+        public static readonly UniverseRelationalOperator Le = new UniverseRelationalOperator();
 
         ///<summary>
         /// The equal ({@code ==}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Eq = new();
+        public static readonly UniverseRelationalOperator Eq = new UniverseRelationalOperator();
 
         ///<summary>
         /// The not-equal ({@code !=}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Neq = new();
+        public static readonly UniverseRelationalOperator Neq = new UniverseRelationalOperator();
 
         ///<summary>
         /// The greater-than-or-equal ({@code >=}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Ge = new();
+        public static readonly UniverseRelationalOperator Ge = new UniverseRelationalOperator();
 
         ///<summary>
         /// The greater-than ({@code >}) relational operator.
         ///</summary>
-        public static readonly UniverseRelationalOperator Gt = new();
+        public static readonly UniverseRelationalOperator Gt = new UniverseRelationalOperator();
 
         public IEnumerable<IUniverseOperator> Values()
         {

@@ -19,41 +19,43 @@
 
 using Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator;
 
-namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension;
-///<summary>
-/// The OperatorIntensionConstraint is the parent class of all the implementations of
-/// {@link IIntensionConstraint} that apply an operator on some other intension
-/// constraint(s).
-///
-///
-///</summary>
-public abstract class UniverseOperatorIntensionConstraint : IIntensionConstraint
+namespace Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
 {
-
     ///<summary>
-    /// The operator applied by this constraint.
-    ///</summary>
-    protected IUniverseOperator Op;
-
-    ///<summary>
-    /// Creates a new OperatorIntensionConstraint.
+    /// The OperatorIntensionConstraint is the parent class of all the implementations of
+    /// {@link IIntensionConstraint} that apply an operator on some other intension
+    /// constraint(s).
+    ///
     ///
     ///</summary>
-    ///<param name="op">The op applied by the constraint.</param>
-    protected UniverseOperatorIntensionConstraint(IUniverseOperator op)
+    public abstract class UniverseOperatorIntensionConstraint : IIntensionConstraint
     {
-        this.Op = op;
-    }
 
-    ///<summary>
-    /// Gives the op applied by this constraint.
-    ///
-    ///<return>op applied by this constraint.</return>
-    ///</summary>
-    public IUniverseOperator GetOperator()
-    {
-        return this.Op;
-    }
+        ///<summary>
+        /// The operator applied by this constraint.
+        ///</summary>
+        protected IUniverseOperator Op;
 
-    public abstract void Accept(IIntensionConstraintVisitor visitor);
+        ///<summary>
+        /// Creates a new OperatorIntensionConstraint.
+        ///
+        ///</summary>
+        ///<param name="op">The op applied by the constraint.</param>
+        protected UniverseOperatorIntensionConstraint(IUniverseOperator op)
+        {
+            this.Op = op;
+        }
+
+        ///<summary>
+        /// Gives the op applied by this constraint.
+        ///
+        ///<return>op applied by this constraint.</return>
+        ///</summary>
+        public IUniverseOperator GetOperator()
+        {
+            return this.Op;
+        }
+
+        public abstract void Accept(IIntensionConstraintVisitor visitor);
+    }
 }
