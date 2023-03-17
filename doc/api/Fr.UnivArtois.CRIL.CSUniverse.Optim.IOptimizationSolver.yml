@@ -1,0 +1,352 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  id: IOptimizationSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound(System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound(System.Numerics.BigInteger)
+  langs:
+  - csharp
+  - vb
+  name: IOptimizationSolver
+  nameWithType: IOptimizationSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IOptimizationSolver
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 23
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: public interface IOptimizationSolver
+    content.vb: Public Interface IOptimizationSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound
+  id: GetLowerBound
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: GetLowerBound()
+  nameWithType: IOptimizationSolver.GetLowerBound()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetLowerBound
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 25
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: BigInteger GetLowerBound()
+    return:
+      type: System.Numerics.BigInteger
+    content.vb: Function GetLowerBound() As BigInteger
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound(System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound(System.Numerics.BigInteger)
+  id: SetLowerBound(System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: SetLowerBound(BigInteger)
+  nameWithType: IOptimizationSolver.SetLowerBound(BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound(System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetLowerBound
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: void SetLowerBound(BigInteger lb)
+    parameters:
+    - id: lb
+      type: System.Numerics.BigInteger
+    content.vb: Sub SetLowerBound(lb As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound
+  id: GetUpperBound
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: GetUpperBound()
+  nameWithType: IOptimizationSolver.GetUpperBound()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetUpperBound
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: BigInteger GetUpperBound()
+    return:
+      type: System.Numerics.BigInteger
+    content.vb: Function GetUpperBound() As BigInteger
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound(System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound(System.Numerics.BigInteger)
+  id: SetUpperBound(System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: SetUpperBound(BigInteger)
+  nameWithType: IOptimizationSolver.SetUpperBound(BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound(System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetUpperBound
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 28
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: void SetUpperBound(BigInteger ub)
+    parameters:
+    - id: ub
+      type: System.Numerics.BigInteger
+    content.vb: Sub SetUpperBound(ub As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  id: SetBounds(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: SetBounds(BigInteger, BigInteger)
+  nameWithType: IOptimizationSolver.SetBounds(BigInteger, BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds(System.Numerics.BigInteger, System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetBounds
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 29
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: void SetBounds(BigInteger lb, BigInteger ub)
+    parameters:
+    - id: lb
+      type: System.Numerics.BigInteger
+    - id: ub
+      type: System.Numerics.BigInteger
+    content.vb: Sub SetBounds(lb As BigInteger, ub As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound
+  id: GetCurrentBound
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentBound()
+  nameWithType: IOptimizationSolver.GetCurrentBound()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetCurrentBound
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 30
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: BigInteger GetCurrentBound()
+    return:
+      type: System.Numerics.BigInteger
+    content.vb: Function GetCurrentBound() As BigInteger
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization
+  id: IsMinimization
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: IsMinimization()
+  nameWithType: IOptimizationSolver.IsMinimization()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IsMinimization
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Optim/IOptimizationSolver.cs
+    startLine: 31
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  syntax:
+    content: bool IsMinimization()
+    return:
+      type: System.Boolean
+    content.vb: Function IsMinimization() As Boolean
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization*
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Optim
+  name: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Optim
+    name: Optim
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Optim
+    name: Optim
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound
+  name: GetLowerBound
+  nameWithType: IOptimizationSolver.GetLowerBound
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetLowerBound
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound
+  name: SetLowerBound
+  nameWithType: IOptimizationSolver.SetLowerBound
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetLowerBound
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound
+  name: GetUpperBound
+  nameWithType: IOptimizationSolver.GetUpperBound
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetUpperBound
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound
+  name: SetUpperBound
+  nameWithType: IOptimizationSolver.SetUpperBound
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetUpperBound
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds
+  name: SetBounds
+  nameWithType: IOptimizationSolver.SetBounds
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.SetBounds
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound
+  name: GetCurrentBound
+  nameWithType: IOptimizationSolver.GetCurrentBound
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.GetCurrentBound
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization
+  name: IsMinimization
+  nameWithType: IOptimizationSolver.IsMinimization
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.IsMinimization
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

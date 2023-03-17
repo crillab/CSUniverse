@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Utils
+  id: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory
+  name: ISolverFactory
+  nameWithType: ISolverFactory
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory

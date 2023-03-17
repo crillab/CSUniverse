@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  id: IUniverseDomain
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size
+  langs:
+  - csharp
+  - vb
+  name: IUniverseDomain
+  nameWithType: IUniverseDomain
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseDomain
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nThe IUniverseDomain represents the Domain of a Variable in constraint problem.\n"
+  example: []
+  syntax:
+    content: public interface IUniverseDomain
+    content.vb: Public Interface IUniverseDomain
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min
+  id: Min
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  langs:
+  - csharp
+  - vb
+  name: Min()
+  nameWithType: IUniverseDomain.Min()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Min
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+    startLine: 34
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the minimum value of this domain.\n"
+  example: []
+  syntax:
+    content: BigInteger Min()
+    return:
+      type: System.Numerics.BigInteger
+      description: The minimum value.
+    content.vb: Function Min() As BigInteger
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max
+  id: Max
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  langs:
+  - csharp
+  - vb
+  name: Max()
+  nameWithType: IUniverseDomain.Max()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Max
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+    startLine: 40
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the maximum value of this domain.\n"
+  example: []
+  syntax:
+    content: BigInteger Max()
+    return:
+      type: System.Numerics.BigInteger
+      description: The maximum value.
+    content.vb: Function Max() As BigInteger
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size
+  id: Size
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  langs:
+  - csharp
+  - vb
+  name: Size()
+  nameWithType: IUniverseDomain.Size()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Size
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+    startLine: 46
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the number of values of this domain.\n"
+  example: []
+  syntax:
+    content: long Size()
+    return:
+      type: System.Int64
+      description: The number of values.
+    content.vb: Function Size() As Long
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues
+  id: GetValues
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  langs:
+  - csharp
+  - vb
+  name: GetValues()
+  nameWithType: IUniverseDomain.GetValues()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetValues
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseDomain.cs
+    startLine: 52
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the list of values of this domain.\n"
+  example: []
+  syntax:
+    content: List<BigInteger> GetValues()
+    return:
+      type: System.Collections.Generic.List{System.Numerics.BigInteger}
+      description: The list of values.
+    content.vb: Function GetValues() As List(Of BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues*
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min
+  name: Min
+  nameWithType: IUniverseDomain.Min
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Min
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max
+  name: Max
+  nameWithType: IUniverseDomain.Max
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Max
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size
+  name: Size
+  nameWithType: IUniverseDomain.Size
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.Size
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues
+  name: GetValues
+  nameWithType: IUniverseDomain.GetValues
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.GetValues
+- uid: System.Collections.Generic.List{System.Numerics.BigInteger}
+  commentId: T:System.Collections.Generic.List{System.Numerics.BigInteger}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BigInteger>
+  nameWithType: List<BigInteger>
+  fullName: System.Collections.Generic.List<System.Numerics.BigInteger>
+  nameWithType.vb: List(Of BigInteger)
+  fullName.vb: System.Collections.Generic.List(Of System.Numerics.BigInteger)
+  name.vb: List(Of BigInteger)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  id: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: BinaryIntensionConstraint
+  nameWithType: BinaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: ConstantIntensionConstraint
+  nameWithType: ConstantIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IfThenElseIntensionConstraint
+  nameWithType: IfThenElseIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraint
+  nameWithType: IIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraintVisitor
+  nameWithType: IIntensionConstraintVisitor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  name: IntensionConstraintFactory
+  nameWithType: IntensionConstraintFactory
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: NaryIntensionConstraint
+  nameWithType: NaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: UnaryIntensionConstraint
+  nameWithType: UnaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: UniverseOperatorIntensionConstraint
+  nameWithType: UniverseOperatorIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: VariableIntensionConstraint
+  nameWithType: VariableIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension

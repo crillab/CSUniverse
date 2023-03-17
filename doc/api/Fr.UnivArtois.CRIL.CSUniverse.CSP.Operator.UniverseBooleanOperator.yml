@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  id: UniverseBooleanOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.And
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Equiv
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Impl
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Not
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Or
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Xor
+  langs:
+  - csharp
+  - vb
+  name: UniverseBooleanOperator
+  nameWithType: UniverseBooleanOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UniverseBooleanOperator
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe BooleanOperator enumerates all operators on Boolean variables.\n"
+  example: []
+  syntax:
+    content: 'public sealed class UniverseBooleanOperator : IUniverseOperator'
+    content.vb: Public NotInheritable Class UniverseBooleanOperator Implements IUniverseOperator
+  inheritance:
+  - System.Object
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Not
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Not
+  id: Not
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Not
+  nameWithType: UniverseBooleanOperator.Not
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Not
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Not
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 31
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the negation of a Boolean value.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator Not
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared [Not] As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.And
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.And
+  id: And
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: UniverseBooleanOperator.And
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.And
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: And
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 36
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the conjunction of several Boolean values.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator And
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared [And] As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Or
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Or
+  id: Or
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Or
+  nameWithType: UniverseBooleanOperator.Or
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Or
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Or
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 41
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the disjunction of several Boolean values.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator Or
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared [Or] As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Xor
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Xor
+  id: Xor
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Xor
+  nameWithType: UniverseBooleanOperator.Xor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Xor
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Xor
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 47
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the exclusive disjunction of several Boolean\nvalues.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator Xor
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared [Xor] As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Equiv
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Equiv
+  id: Equiv
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Equiv
+  nameWithType: UniverseBooleanOperator.Equiv
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Equiv
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Equiv
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 52
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the equivalence of several Boolean values.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator Equiv
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared Equiv As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Impl
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Impl
+  id: Impl
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Impl
+  nameWithType: UniverseBooleanOperator.Impl
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Impl
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Impl
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 57
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Boolean operator for computing the implication between two Boolean values.\n"
+  example: []
+  syntax:
+    content: public static UniverseBooleanOperator Impl
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    content.vb: Public Shared Impl As UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values
+  id: Values
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  langs:
+  - csharp
+  - vb
+  name: Values()
+  nameWithType: UniverseBooleanOperator.Values()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Values
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseBooleanOperator.cs
+    startLine: 59
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  syntax:
+    content: public IEnumerable<IUniverseOperator> Values()
+    return:
+      type: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+    content.vb: Public Function Values() As IEnumerable(Of IUniverseOperator)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values*
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseBooleanOperator
+  nameWithType: UniverseBooleanOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values
+  name: Values
+  nameWithType: UniverseBooleanOperator.Values
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.Values
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  name: Values()
+  nameWithType: IUniverseOperator.Values()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+    name: Values
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+    name: Values
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  commentId: T:System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IUniverseOperator>
+  nameWithType: IEnumerable<IUniverseOperator>
+  fullName: System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator>
+  nameWithType.vb: IEnumerable(Of IUniverseOperator)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  name.vb: IEnumerable(Of IUniverseOperator)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

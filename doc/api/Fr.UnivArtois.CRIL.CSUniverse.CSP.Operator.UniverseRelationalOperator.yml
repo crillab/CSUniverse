@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  id: UniverseRelationalOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Eq
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Ge
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Gt
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Le
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Lt
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Neq
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values
+  langs:
+  - csharp
+  - vb
+  name: UniverseRelationalOperator
+  nameWithType: UniverseRelationalOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UniverseRelationalOperator
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe RelationalOperator enumerates all possible relational operators.\n"
+  example: []
+  syntax:
+    content: 'public sealed class UniverseRelationalOperator : IUniverseOperator'
+    content.vb: Public NotInheritable Class UniverseRelationalOperator Implements IUniverseOperator
+  inheritance:
+  - System.Object
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Lt
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Lt
+  id: Lt
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Lt
+  nameWithType: UniverseRelationalOperator.Lt
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Lt
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Lt
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 33
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  syntax:
+    content: public static readonly UniverseRelationalOperator Lt
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Lt As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Le
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Le
+  id: Le
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Le
+  nameWithType: UniverseRelationalOperator.Le
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Le
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Le
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 38
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  syntax:
+    content: public static readonly UniverseRelationalOperator Le
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Le As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Eq
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Eq
+  id: Eq
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Eq
+  nameWithType: UniverseRelationalOperator.Eq
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Eq
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Eq
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 43
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe equal ({@code ==}) relational operator.\n"
+  example: []
+  syntax:
+    content: public static readonly UniverseRelationalOperator Eq
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Eq As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Neq
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Neq
+  id: Neq
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Neq
+  nameWithType: UniverseRelationalOperator.Neq
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Neq
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Neq
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 48
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe not-equal ({@code !=}) relational operator.\n"
+  example: []
+  syntax:
+    content: public static readonly UniverseRelationalOperator Neq
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Neq As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Ge
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Ge
+  id: Ge
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Ge
+  nameWithType: UniverseRelationalOperator.Ge
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Ge
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Ge
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 53
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe greater-than-or-equal ({@code >=}) relational operator.\n"
+  example: []
+  syntax:
+    content: public static readonly UniverseRelationalOperator Ge
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Ge As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Gt
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Gt
+  id: Gt
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Gt
+  nameWithType: UniverseRelationalOperator.Gt
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Gt
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Gt
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 58
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe greater-than ({@code >}) relational operator.\n"
+  example: []
+  syntax:
+    content: public static readonly UniverseRelationalOperator Gt
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    content.vb: Public Shared ReadOnly Gt As UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values
+  id: Values
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  langs:
+  - csharp
+  - vb
+  name: Values()
+  nameWithType: UniverseRelationalOperator.Values()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Values
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseRelationalOperator.cs
+    startLine: 60
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  syntax:
+    content: public IEnumerable<IUniverseOperator> Values()
+    return:
+      type: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+    content.vb: Public Function Values() As IEnumerable(Of IUniverseOperator)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values*
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseRelationalOperator
+  nameWithType: UniverseRelationalOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values
+  name: Values
+  nameWithType: UniverseRelationalOperator.Values
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.Values
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  name: Values()
+  nameWithType: IUniverseOperator.Values()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+    name: Values
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+    name: Values
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  commentId: T:System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IUniverseOperator>
+  nameWithType: IEnumerable<IUniverseOperator>
+  fullName: System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator>
+  nameWithType.vb: IEnumerable(Of IUniverseOperator)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  name.vb: IEnumerable(Of IUniverseOperator)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

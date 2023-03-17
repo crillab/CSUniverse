@@ -1,0 +1,88 @@
+### YamlMime:TableOfContent
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+    name: IUniverseSolver
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption<T>
+    name.vb: UniverseAssumption(Of T)
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+    name: UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+    name: IUniverseConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+    name: IUniverseDomain
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem
+    name: IUniverseProblem
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+    name: IUniverseVariable
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  name: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition
+    name: UniverseTransition
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver
+    name: IUniverseCspSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+    name: BinaryIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+    name: ConstantIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+    name: IfThenElseIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    name: IIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+    name: IIntensionConstraintVisitor
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+    name: IntensionConstraintFactory
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+    name: NaryIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+    name: UnaryIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+    name: UniverseOperatorIntensionConstraint
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+    name: VariableIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator
+    name: UniverseArithmeticOperator
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+    name: UniverseBooleanOperator
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+    name: UniverseRelationalOperator
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator
+    name: UniverseSetBelongingOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  name: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+    name: IOptimizationSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB
+  name: Fr.UnivArtois.CRIL.CSUniverse.PB
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+    name: IUniversePseudoBooleanSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  name: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+    name: IUniverseSatSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  name: Fr.UnivArtois.CRIL.CSUniverse.Utils
+  items:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory
+    name: ISolverFactory

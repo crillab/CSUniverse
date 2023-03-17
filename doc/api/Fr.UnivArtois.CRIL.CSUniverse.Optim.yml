@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Optim
+  id: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver
+  name: IOptimizationSolver
+  nameWithType: IOptimizationSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver

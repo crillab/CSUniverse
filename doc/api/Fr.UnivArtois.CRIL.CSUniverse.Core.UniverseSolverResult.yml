@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  id: UniverseSolverResult
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.OPTIMUM_FOUND
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.SATISFIABLE
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNKNOWN
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSATISFIABLE
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSUPPORTED
+  langs:
+  - csharp
+  - vb
+  name: UniverseSolverResult
+  nameWithType: UniverseSolverResult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  type: Enum
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UniverseSolverResult
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 24
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nThe UniverseSolverResult represents the result of the solver. \n"
+  example: []
+  syntax:
+    content: public enum UniverseSolverResult
+    content.vb: Public Enum UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.SATISFIABLE
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.SATISFIABLE
+  id: SATISFIABLE
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: SATISFIABLE
+  nameWithType: UniverseSolverResult.SATISFIABLE
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.SATISFIABLE
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SATISFIABLE
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  syntax:
+    content: SATISFIABLE = 0
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSATISFIABLE
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSATISFIABLE
+  id: UNSATISFIABLE
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: UNSATISFIABLE
+  nameWithType: UniverseSolverResult.UNSATISFIABLE
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSATISFIABLE
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UNSATISFIABLE
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  syntax:
+    content: UNSATISFIABLE = 1
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNKNOWN
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNKNOWN
+  id: UNKNOWN
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: UNKNOWN
+  nameWithType: UniverseSolverResult.UNKNOWN
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNKNOWN
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UNKNOWN
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 28
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  syntax:
+    content: UNKNOWN = 2
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSUPPORTED
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSUPPORTED
+  id: UNSUPPORTED
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: UNSUPPORTED
+  nameWithType: UniverseSolverResult.UNSUPPORTED
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.UNSUPPORTED
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UNSUPPORTED
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 29
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  syntax:
+    content: UNSUPPORTED = 3
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.OPTIMUM_FOUND
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.OPTIMUM_FOUND
+  id: OPTIMUM_FOUND
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: OPTIMUM_FOUND
+  nameWithType: UniverseSolverResult.OPTIMUM_FOUND
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.OPTIMUM_FOUND
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: OPTIMUM_FOUND
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/UniverseSolverResult.cs
+    startLine: 30
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  syntax:
+    content: OPTIMUM_FOUND = 4
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: UniverseSolverResult
+  nameWithType: UniverseSolverResult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult

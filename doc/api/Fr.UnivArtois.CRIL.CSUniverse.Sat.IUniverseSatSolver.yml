@@ -1,0 +1,817 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  id: IUniverseSatSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  langs:
+  - csharp
+  - vb
+  name: IUniverseSatSolver
+  nameWithType: IUniverseSatSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseSatSolver
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  syntax:
+    content: 'public interface IUniverseSatSolver : IUniverseSolver'
+    content.vb: Public Interface IUniverseSatSolver Inherits IUniverseSolver
+  inheritedMembers:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  id: AddClause(System.Collections.Generic.IList{System.Int32})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  langs:
+  - csharp
+  - vb
+  name: AddClause(IList<int>)
+  nameWithType: IUniverseSatSolver.AddClause(IList<int>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList<int>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddClause
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+    startLine: 34
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  summary: "\nCreate a clause from a set of literals The literals are represented by\nnon null integers such that opposite literals a represented by opposite\nvalues. (classical Dimacs way of representing literals).\n"
+  example: []
+  syntax:
+    content: void AddClause(IList<int> literals)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: a set of literals
+    content.vb: Sub AddClause(literals As IList(Of Integer))
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause*
+  nameWithType.vb: IUniverseSatSolver.AddClause(IList(Of Integer))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddClause(IList(Of Integer))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  id: AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  langs:
+  - csharp
+  - vb
+  name: AddAllClauses(IList<IList<int>>)
+  nameWithType: IUniverseSatSolver.AddAllClauses(IList<IList<int>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList<System.Collections.Generic.IList<int>>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddAllClauses
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+    startLine: 44
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  summary: "\nCreate clauses from a set of set of literals. This is convenient to\ncreate in a single call all the clauses.\nIt is mainly a loop to addClause().\n"
+  example: []
+  syntax:
+    content: void AddAllClauses(IList<IList<int>> clauses)
+    parameters:
+    - id: clauses
+      type: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}}
+      description: >-
+        a vector of set (VecInt) of literals in the dimacs format. The
+                   vector can be reused since the solver is not supposed to keep
+                   a reference to that vector.
+    content.vb: Sub AddAllClauses(clauses As IList(Of IList(Of Integer)))
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses*
+  nameWithType.vb: IUniverseSatSolver.AddAllClauses(IList(Of IList(Of Integer)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of Integer)))
+  name.vb: AddAllClauses(IList(Of IList(Of Integer)))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  id: SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  langs:
+  - csharp
+  - vb
+  name: SolveBoolean(IList<UniverseAssumption<bool>>)
+  nameWithType: IUniverseSatSolver.SolveBoolean(IList<UniverseAssumption<bool>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<bool>>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SolveBoolean
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+    startLine: 58
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  summary: "\nSolves the problem associated to this solver.\n"
+  example: []
+  syntax:
+    content: UniverseSolverResult SolveBoolean(IList<UniverseAssumption<bool>> assumptions)
+    parameters:
+    - id: assumptions
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}}
+      description: The assumptions to consider when solving.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+      description: The outcome of the search conducted by the solver.
+    content.vb: Function SolveBoolean(assumptions As IList(Of UniverseAssumption(Of Boolean))) As UniverseSolverResult
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean*
+  nameWithType.vb: IUniverseSatSolver.SolveBoolean(IList(Of UniverseAssumption(Of Boolean)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Boolean)))
+  name.vb: SolveBoolean(IList(Of UniverseAssumption(Of Boolean)))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  id: SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  langs:
+  - csharp
+  - vb
+  name: SolveBoolean(IList<UniverseAssumption<BigInteger>>)
+  nameWithType: IUniverseSatSolver.SolveBoolean(IList<UniverseAssumption<BigInteger>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<System.Numerics.BigInteger>>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SolveBoolean
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs
+    startLine: 65
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  summary: "\nSolves the problem associated to this solver.\n"
+  example: []
+  syntax:
+    content: UniverseSolverResult SolveBoolean(IList<UniverseAssumption<BigInteger>> assumptions)
+    parameters:
+    - id: assumptions
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}}
+      description: The assumptions to consider when solving.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+      description: The outcome of the search conducted by the solver.
+    content.vb: Function SolveBoolean(assumptions As IList(Of UniverseAssumption(Of BigInteger))) As UniverseSolverResult
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean*
+  nameWithType.vb: IUniverseSatSolver.SolveBoolean(IList(Of UniverseAssumption(Of BigInteger)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of System.Numerics.BigInteger)))
+  name.vb: SolveBoolean(IList(Of UniverseAssumption(Of BigInteger)))
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Sat
+  name: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+    name: Sat
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+    name: Sat
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Solve()
+  nameWithType: IUniverseSolver.Solve()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+    name: Solve
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+    name: Solve
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: Solve(string)
+  nameWithType: IUniverseSolver.Solve(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(string)
+  nameWithType.vb: IUniverseSolver.Solve(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(String)
+  name.vb: Solve(String)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+    name: Solve
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+    name: Solve
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: Solve(IEnumerable<UniverseAssumption<int>>)
+  nameWithType: IUniverseSolver.Solve(IEnumerable<UniverseAssumption<int>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<int>>)
+  nameWithType.vb: IUniverseSolver.Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Integer)))
+  name.vb: Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+    name: Solve
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+    name: Solve
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Interrupt()
+  nameWithType: IUniverseSolver.Interrupt()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+    name: Interrupt
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+    name: Interrupt
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetVerbosity(int)
+  nameWithType: IUniverseSolver.SetVerbosity(int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(int)
+  nameWithType.vb: IUniverseSolver.SetVerbosity(Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(Integer)
+  name.vb: SetVerbosity(Integer)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+    name: SetVerbosity
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+    name: SetVerbosity
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetTimeout(long)
+  nameWithType: IUniverseSolver.SetTimeout(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(long)
+  nameWithType.vb: IUniverseSolver.SetTimeout(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(Long)
+  name.vb: SetTimeout(Long)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+    name: SetTimeout
+  - name: (
+  - uid: System.Int64
+    name: long
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+    name: SetTimeout
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetTimeoutMs(long)
+  nameWithType: IUniverseSolver.SetTimeoutMs(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(long)
+  nameWithType.vb: IUniverseSolver.SetTimeoutMs(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(Long)
+  name.vb: SetTimeoutMs(Long)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+    name: SetTimeoutMs
+  - name: (
+  - uid: System.Int64
+    name: long
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+    name: SetTimeoutMs
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Reset()
+  nameWithType: IUniverseSolver.Reset()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+    name: Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+    name: Reset
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Solution()
+  nameWithType: IUniverseSolver.Solution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+    name: Solution
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+    name: Solution
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: MapSolution()
+  nameWithType: IUniverseSolver.MapSolution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+    name: MapSolution
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+    name: MapSolution
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: MapSolution(bool)
+  nameWithType: IUniverseSolver.MapSolution(bool)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(bool)
+  nameWithType.vb: IUniverseSolver.MapSolution(Boolean)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(Boolean)
+  name.vb: MapSolution(Boolean)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+    name: MapSolution
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+    name: MapSolution
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: NVariables()
+  nameWithType: IUniverseSolver.NVariables()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+    name: NVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+    name: NVariables
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: NConstraints()
+  nameWithType: IUniverseSolver.NConstraints()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+    name: NConstraints
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+    name: NConstraints
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetLogFile(string)
+  nameWithType: IUniverseSolver.SetLogFile(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(string)
+  nameWithType.vb: IUniverseSolver.SetLogFile(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(String)
+  name.vb: SetLogFile(String)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+    name: SetLogFile
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+    name: SetLogFile
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: IUniverseSolver
+  nameWithType: IUniverseSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause
+  name: AddClause
+  nameWithType: IUniverseSatSolver.AddClause
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause
+- uid: System.Collections.Generic.IList{System.Int32}
+  commentId: T:System.Collections.Generic.IList{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<int>
+  nameWithType: IList<int>
+  fullName: System.Collections.Generic.IList<int>
+  nameWithType.vb: IList(Of Integer)
+  fullName.vb: System.Collections.Generic.IList(Of Integer)
+  name.vb: IList(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses
+  name: AddAllClauses
+  nameWithType: IUniverseSatSolver.AddAllClauses
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses
+- uid: System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}}
+  commentId: T:System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IList<int>>
+  nameWithType: IList<IList<int>>
+  fullName: System.Collections.Generic.IList<System.Collections.Generic.IList<int>>
+  nameWithType.vb: IList(Of IList(Of Integer))
+  fullName.vb: System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of Integer))
+  name.vb: IList(Of IList(Of Integer))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean
+  name: SolveBoolean
+  nameWithType: IUniverseSatSolver.SolveBoolean
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean
+- uid: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}}
+  commentId: T:System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<UniverseAssumption<bool>>
+  nameWithType: IList<UniverseAssumption<bool>>
+  fullName: System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<bool>>
+  nameWithType.vb: IList(Of UniverseAssumption(Of Boolean))
+  fullName.vb: System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Boolean))
+  name.vb: IList(Of UniverseAssumption(Of Boolean))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: UniverseSolverResult
+  nameWithType: UniverseSolverResult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}}
+  commentId: T:System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<UniverseAssumption<BigInteger>>
+  nameWithType: IList<UniverseAssumption<BigInteger>>
+  fullName: System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<System.Numerics.BigInteger>>
+  nameWithType.vb: IList(Of UniverseAssumption(Of BigInteger))
+  fullName.vb: System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of System.Numerics.BigInteger))
+  name.vb: IList(Of UniverseAssumption(Of BigInteger))
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: )
+  - name: )

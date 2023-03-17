@@ -1,0 +1,2194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  id: IntensionConstraintFactory
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(System.String)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  langs:
+  - csharp
+  - vb
+  name: IntensionConstraintFactory
+  nameWithType: IntensionConstraintFactory
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IntensionConstraintFactory
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 31
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nThe IntensionConstraintFactory makes easier the construction of {@code intension}\nconstraints from the solver&apos;s API, by providing a functional notation similar to that\nused to define the constraints using XCSP3.\n"
+  example: []
+  syntax:
+    content: public class IntensionConstraintFactory
+    content.vb: Public Class IntensionConstraintFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Int64)
+  id: Constant(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Constant(long)
+  nameWithType: IntensionConstraintFactory.Constant(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(long)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Constant
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 49
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nWraps a constant value in its representation as an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Constant(long value)
+    parameters:
+    - id: value
+      type: System.Int64
+      description: The value of the constant.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Constant(value As Long) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant*
+  nameWithType.vb: IntensionConstraintFactory.Constant(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(Long)
+  name.vb: Constant(Long)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)
+  id: Constant(System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Constant(BigInteger)
+  nameWithType: IntensionConstraintFactory.Constant(BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Constant
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 61
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nWraps a constant value in its representation as an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Constant(BigInteger value)
+    parameters:
+    - id: value
+      type: System.Numerics.BigInteger
+      description: The value of the constant.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Constant(value As BigInteger) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(System.String)
+  id: Variable(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Variable(string)
+  nameWithType: IntensionConstraintFactory.Variable(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(string)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Variable
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 73
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nWraps a variable in its representation as an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Variable(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: The identifier of the variable.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Variable(id As String) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable*
+  nameWithType.vb: IntensionConstraintFactory.Variable(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(String)
+  name.vb: Variable(String)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Neg(IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Neg(IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Neg
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 85
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code opposite} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Neg(IIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The constraint on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Neg(constr As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Abs(IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Abs(IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Abs
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 98
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code absolute-value}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Abs(IIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The constraint on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Abs(constr As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Add(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Add(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Add
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 110
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code addition} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Add(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Add(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add*
+  nameWithType.vb: IntensionConstraintFactory.Add(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Add(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Add(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Add(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Add(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Add
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 122
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code addition} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Add(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Add(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add*
+  nameWithType.vb: IntensionConstraintFactory.Add(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Add(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Sub(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Sub(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Sub
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 135
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code subtraction} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Sub(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Sub](left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Mult(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Mult(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Mult
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 148
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code multiplication}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Mult(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Mult(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult*
+  nameWithType.vb: IntensionConstraintFactory.Mult(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Mult(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Mult(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Mult(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Mult(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Mult
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 161
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code multiplication}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Mult(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Mult(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult*
+  nameWithType.vb: IntensionConstraintFactory.Mult(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Mult(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Div(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Div(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Div
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 174
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code division} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Div(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Div(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Mod(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Mod(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Mod
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 187
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code modulo} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Mod(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Mod](left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Sqr(IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Sqr(IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Sqr
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 199
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code square} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Sqr(IIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The constraint on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Sqr(constr As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Pow(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Pow(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Pow
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 212
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code power} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Pow(IIntensionConstraint constr, IIntensionConstraint exponent)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: exponent
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The exponent in the power operation
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Pow(constr As IIntensionConstraint, exponent As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Min(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Min(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Min
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 224
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code minimum} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Min(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Min(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min*
+  nameWithType.vb: IntensionConstraintFactory.Min(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Min(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Min(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Min(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Min(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Min
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 236
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code minimum} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Min(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Min(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min*
+  nameWithType.vb: IntensionConstraintFactory.Min(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Min(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Max(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Max(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Max
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 248
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code maximum} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Max(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Max(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max*
+  nameWithType.vb: IntensionConstraintFactory.Max(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Max(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Max(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Max(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Max(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Max
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 260
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code maximum} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Max(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Max(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max*
+  nameWithType.vb: IntensionConstraintFactory.Max(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Max(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Dist(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Dist(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Dist
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 273
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code distance} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Dist(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Dist(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Lt(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Lt(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Lt
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 286
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code less-than} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Lt(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Lt(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Le(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Le(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Le
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 300
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code less-or-equal}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Le(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Le(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Eq(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Eq(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Eq
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 312
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code equal} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Eq(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Eq(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq*
+  nameWithType.vb: IntensionConstraintFactory.Eq(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Eq(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Eq(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Eq(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Eq(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Eq
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 324
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code equal} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Eq(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Eq(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq*
+  nameWithType.vb: IntensionConstraintFactory.Eq(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Eq(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Neq(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Neq(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Neq
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 337
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code different} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Neq(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Neq(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Ge(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Ge(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Ge
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 351
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code greater-or-equal}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Ge(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Ge(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Gt(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Gt(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Gt
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 364
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code greater-than} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Gt(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Gt(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Not(IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Not(IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Not
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 376
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code not} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Not(IIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The constraint on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Not](constr As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: And(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.And(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: And
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 388
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code conjunction} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint And(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [And](ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And*
+  nameWithType.vb: IntensionConstraintFactory.And(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: And(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: And(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: And(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.And(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: And
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 400
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code conjunction} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint And(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [And](constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And*
+  nameWithType.vb: IntensionConstraintFactory.And(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: And(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Or(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Or(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Or
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 412
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code disjunction} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Or(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Or](ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or*
+  nameWithType.vb: IntensionConstraintFactory.Or(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Or(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Or(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Or(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Or(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Or
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 424
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code disjunction} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Or(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Or](constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or*
+  nameWithType.vb: IntensionConstraintFactory.Or(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Or(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Xor(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Xor(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Xor
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 437
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code exclusive-disjunction}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Xor(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Xor](ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor*
+  nameWithType.vb: IntensionConstraintFactory.Xor(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Xor(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Xor(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Xor(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Xor(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Xor
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 450
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code exclusive-disjunction}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Xor(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function [Xor](constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor*
+  nameWithType.vb: IntensionConstraintFactory.Xor(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Xor(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Equiv(params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Equiv(params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Equiv
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 462
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code equivalence} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Equiv(params IIntensionConstraint[] constrs)
+    parameters:
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Equiv(ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv*
+  nameWithType.vb: IntensionConstraintFactory.Equiv(ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Equiv(ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Equiv(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Equiv(IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Equiv(IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Equiv
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 474
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code equivalence} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Equiv(IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which to apply the op.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Equiv(constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv*
+  nameWithType.vb: IntensionConstraintFactory.Equiv(IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Equiv(IList(Of IIntensionConstraint))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Impl(IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Impl(IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Impl
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 488
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code implication}\nop.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Impl(IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Impl(left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Ite(IIntensionConstraint, IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Ite(IIntensionConstraint, IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Ite
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 504
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates an {@code intension} constraint applying the {@code if-then-else} op.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Ite(IIntensionConstraint condition, IIntensionConstraint ifTrue, IIntensionConstraint ifFalse)
+    parameters:
+    - id: condition
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The condition of the constraint.
+    - id: ifTrue
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The intension constraint corresponding to the case in which the
+    - id: ifFalse
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The intension constraint corresponding to the case in which the
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Ite(condition As IIntensionConstraint, ifTrue As IIntensionConstraint, ifFalse As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Unary(IUniverseOperator, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Unary(IUniverseOperator, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Unary
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 518
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates a new unary {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Unary(IUniverseOperator op, IIntensionConstraint constr)
+    parameters:
+    - id: op
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+      description: The op applied by the constraint.
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Unary(op As IUniverseOperator, constr As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  id: Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Binary(IUniverseOperator, IIntensionConstraint, IIntensionConstraint)
+  nameWithType: IntensionConstraintFactory.Binary(IUniverseOperator, IIntensionConstraint, IIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint, Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Binary
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 532
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates a new binary {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Binary(IUniverseOperator op, IIntensionConstraint left, IIntensionConstraint right)
+    parameters:
+    - id: op
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+      description: The op applied by the constraint.
+    - id: left
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The left constraint on which the op is applied.
+    - id: right
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+      description: The right constraint on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Binary(op As IUniverseOperator, left As IIntensionConstraint, right As IIntensionConstraint) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  id: Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Nary(IUniverseOperator, params IIntensionConstraint[])
+  nameWithType: IntensionConstraintFactory.Nary(IUniverseOperator, params IIntensionConstraint[])
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, params Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Nary
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 546
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates a new n-ary {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Nary(IUniverseOperator op, params IIntensionConstraint[] constrs)
+    parameters:
+    - id: op
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+      description: The op applied by the constraint.
+    - id: constrs
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+      description: The constraints on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Nary(op As IUniverseOperator, ParamArray constrs As IIntensionConstraint()) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary*
+  nameWithType.vb: IntensionConstraintFactory.Nary(IUniverseOperator, ParamArray IIntensionConstraint())
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, ParamArray Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint())
+  name.vb: Nary(IUniverseOperator, ParamArray IIntensionConstraint())
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  id: Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory
+  langs:
+  - csharp
+  - vb
+  name: Nary(IUniverseOperator, IList<IIntensionConstraint>)
+  nameWithType: IntensionConstraintFactory.Nary(IUniverseOperator, IList<IIntensionConstraint>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Nary
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs
+    startLine: 559
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates a new n-ary {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: public static IIntensionConstraint Nary(IUniverseOperator op, IList<IIntensionConstraint> constrs)
+    parameters:
+    - id: op
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+      description: The op applied by the constraint.
+    - id: constrs
+      type: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+      description: The constraints on which the op is applied.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    content.vb: Public Shared Function Nary(op As IUniverseOperator, constrs As IList(Of IIntensionConstraint)) As IIntensionConstraint
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary*
+  nameWithType.vb: IntensionConstraintFactory.Nary(IUniverseOperator, IList(Of IIntensionConstraint))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator, System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint))
+  name.vb: Nary(IUniverseOperator, IList(Of IIntensionConstraint))
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant
+  name: Constant
+  nameWithType: IntensionConstraintFactory.Constant
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraint
+  nameWithType: IIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable
+  name: Variable
+  nameWithType: IntensionConstraintFactory.Variable
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg
+  name: Neg
+  nameWithType: IntensionConstraintFactory.Neg
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs
+  name: Abs
+  nameWithType: IntensionConstraintFactory.Abs
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add
+  name: Add
+  nameWithType: IntensionConstraintFactory.Add
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+  isExternal: true
+  name: IIntensionConstraint[]
+  nameWithType: IIntensionConstraint[]
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[]
+  nameWithType.vb: IIntensionConstraint()
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint()
+  name.vb: IIntensionConstraint()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    name: IIntensionConstraint
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    name: IIntensionConstraint
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+  commentId: T:System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IIntensionConstraint>
+  nameWithType: IList<IIntensionConstraint>
+  fullName: System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint>
+  nameWithType.vb: IList(Of IIntensionConstraint)
+  fullName.vb: System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)
+  name.vb: IList(Of IIntensionConstraint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    name: IIntensionConstraint
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+    name: IIntensionConstraint
+  - name: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub
+  name: Sub
+  nameWithType: IntensionConstraintFactory.Sub
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult
+  name: Mult
+  nameWithType: IntensionConstraintFactory.Mult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div
+  name: Div
+  nameWithType: IntensionConstraintFactory.Div
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod
+  name: Mod
+  nameWithType: IntensionConstraintFactory.Mod
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr
+  name: Sqr
+  nameWithType: IntensionConstraintFactory.Sqr
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow
+  name: Pow
+  nameWithType: IntensionConstraintFactory.Pow
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min
+  name: Min
+  nameWithType: IntensionConstraintFactory.Min
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max
+  name: Max
+  nameWithType: IntensionConstraintFactory.Max
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist
+  name: Dist
+  nameWithType: IntensionConstraintFactory.Dist
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt
+  name: Lt
+  nameWithType: IntensionConstraintFactory.Lt
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le
+  name: Le
+  nameWithType: IntensionConstraintFactory.Le
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq
+  name: Eq
+  nameWithType: IntensionConstraintFactory.Eq
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq
+  name: Neq
+  nameWithType: IntensionConstraintFactory.Neq
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge
+  name: Ge
+  nameWithType: IntensionConstraintFactory.Ge
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt
+  name: Gt
+  nameWithType: IntensionConstraintFactory.Gt
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not
+  name: Not
+  nameWithType: IntensionConstraintFactory.Not
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And
+  name: And
+  nameWithType: IntensionConstraintFactory.And
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or
+  name: Or
+  nameWithType: IntensionConstraintFactory.Or
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor
+  name: Xor
+  nameWithType: IntensionConstraintFactory.Xor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv
+  name: Equiv
+  nameWithType: IntensionConstraintFactory.Equiv
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl
+  name: Impl
+  nameWithType: IntensionConstraintFactory.Impl
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite
+  name: Ite
+  nameWithType: IntensionConstraintFactory.Ite
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary
+  name: Unary
+  nameWithType: IntensionConstraintFactory.Unary
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary
+  name: Binary
+  nameWithType: IntensionConstraintFactory.Binary
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary
+  name: Nary
+  nameWithType: IntensionConstraintFactory.Nary
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary

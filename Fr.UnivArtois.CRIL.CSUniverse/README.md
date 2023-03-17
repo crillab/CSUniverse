@@ -2,7 +2,7 @@
 
 ## Description
  
-This repository contains the  `C#` version of [UNIVERSE](https://github.com/crillab/universe) library and proposes generic interfaces for combinatorial problems solvers. 
+This repository contains the `C#` version of [UNIVERSE](https://github.com/crillab/universe) library and proposes generic interfaces for combinatorial problems solvers. 
 
 - [SAT Solver](Fr.UnivArtois.CRIL.CSUniverse/Sat/IUniverseSatSolver.cs)
 - [PB Solver](Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs)

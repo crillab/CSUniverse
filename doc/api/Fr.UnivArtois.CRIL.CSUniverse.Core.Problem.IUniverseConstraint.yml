@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  id: IUniverseConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope
+  langs:
+  - csharp
+  - vb
+  name: IUniverseConstraint
+  nameWithType: IUniverseConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseConstraint
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseConstraint.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nThe IUniverseConstraint represents a constraint in constraint problem. \n"
+  example: []
+  syntax:
+    content: public interface IUniverseConstraint
+    content.vb: Public Interface IUniverseConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope
+  id: Scope
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  langs:
+  - csharp
+  - vb
+  name: Scope()
+  nameWithType: IUniverseConstraint.Scope()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Scope
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseConstraint.cs
+    startLine: 33
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the scope of this constraint.\n"
+  example: []
+  syntax:
+    content: List<IUniverseVariable> Scope()
+    return:
+      type: System.Collections.Generic.List{Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable}
+      description: The variables involved in this constraint.
+    content.vb: Function Scope() As List(Of IUniverseVariable)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope*
+  see:
+  - linkId: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+    commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: IUniverseVariable
+  nameWithType: IUniverseVariable
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope
+  name: Scope
+  nameWithType: IUniverseConstraint.Scope
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.Scope
+- uid: System.Collections.Generic.List{Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable}
+  commentId: T:System.Collections.Generic.List{Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IUniverseVariable>
+  nameWithType: List<IUniverseVariable>
+  fullName: System.Collections.Generic.List<Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable>
+  nameWithType.vb: List(Of IUniverseVariable)
+  fullName.vb: System.Collections.Generic.List(Of Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable)
+  name.vb: List(Of IUniverseVariable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+    name: IUniverseVariable
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+    name: IUniverseVariable
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

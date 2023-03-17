@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP
+  id: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  name: IUniverseCspSolver
+  nameWithType: IUniverseCspSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP

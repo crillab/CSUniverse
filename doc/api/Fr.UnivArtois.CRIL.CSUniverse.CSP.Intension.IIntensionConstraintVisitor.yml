@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  id: IIntensionConstraintVisitor
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint)
+  langs:
+  - csharp
+  - vb
+  name: IIntensionConstraintVisitor
+  nameWithType: IIntensionConstraintVisitor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IIntensionConstraintVisitor
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nThe IIntensionConstraintVisitor visits an intension constraint in order to compute its\nencoding using pseudo-Boolean constraints.\n\n\n"
+  example: []
+  syntax:
+    content: public interface IIntensionConstraintVisitor
+    content.vb: Public Interface IIntensionConstraintVisitor
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(UnaryIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(UnaryIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 38
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits a unary constraint that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(UnaryIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+      description: The constraint to visit.
+    content.vb: Sub Visit(constr As UnaryIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(BinaryIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(BinaryIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 48
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits a binary constraint that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(BinaryIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+      description: The constraint to visit.
+    content.vb: Sub Visit(constr As BinaryIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(NaryIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(NaryIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 58
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits an n-ary constraint that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(NaryIntensionConstraint constr)
+    parameters:
+    - id: constr
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+      description: The constraint to visit.
+    content.vb: Sub Visit(constr As NaryIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(IfThenElseIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(IfThenElseIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 68
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits an if-then-else constraint that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(IfThenElseIntensionConstraint ifThenElse)
+    parameters:
+    - id: ifThenElse
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+      description: The constraint to visit.
+    content.vb: Sub Visit(ifThenElse As IfThenElseIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(VariableIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(VariableIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 76
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits a variable that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(VariableIntensionConstraint variable)
+    parameters:
+    - id: variable
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+      description: The variable to visit.
+    content.vb: Sub Visit(variable As VariableIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint)
+  id: Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(ConstantIntensionConstraint)
+  nameWithType: IIntensionConstraintVisitor.Visit(ConstantIntensionConstraint)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Visit
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraintVisitor.cs
+    startLine: 84
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nVisits a constant that appears in an {@code intension} constraint.\n\n"
+  example: []
+  syntax:
+    content: void Visit(ConstantIntensionConstraint constant)
+    parameters:
+    - id: constant
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+      description: The constant to visit.
+    content.vb: Sub Visit(constant As ConstantIntensionConstraint)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit
+  name: Visit
+  nameWithType: IIntensionConstraintVisitor.Visit
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.Visit
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: UnaryIntensionConstraint
+  nameWithType: UnaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: BinaryIntensionConstraint
+  nameWithType: BinaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: NaryIntensionConstraint
+  nameWithType: NaryIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IfThenElseIntensionConstraint
+  nameWithType: IfThenElseIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: VariableIntensionConstraint
+  nameWithType: VariableIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: ConstantIntensionConstraint
+  nameWithType: ConstantIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint

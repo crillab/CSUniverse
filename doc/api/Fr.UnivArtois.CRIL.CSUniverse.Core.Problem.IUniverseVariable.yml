@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  id: IUniverseVariable
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName
+  langs:
+  - csharp
+  - vb
+  name: IUniverseVariable
+  nameWithType: IUniverseVariable
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseVariable
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+    startLine: 21
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  syntax:
+    content: public interface IUniverseVariable
+    content.vb: Public Interface IUniverseVariable
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName
+  id: GetName
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  langs:
+  - csharp
+  - vb
+  name: GetName()
+  nameWithType: IUniverseVariable.GetName()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetName
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the name of this variable.\n"
+  example: []
+  syntax:
+    content: string GetName()
+    return:
+      type: System.String
+      description: The name of this variable.
+    content.vb: Function GetName() As String
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId
+  id: GetId
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  langs:
+  - csharp
+  - vb
+  name: GetId()
+  nameWithType: IUniverseVariable.GetId()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetId
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+    startLine: 33
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the identifier of this variable.\n"
+  example: []
+  syntax:
+    content: int GetId()
+    return:
+      type: System.Int32
+      description: The identifier of this variable.
+    content.vb: Function GetId() As Integer
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain
+  id: GetDomain
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  langs:
+  - csharp
+  - vb
+  name: GetDomain()
+  nameWithType: IUniverseVariable.GetDomain()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetDomain
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/Problem/IUniverseVariable.cs
+    startLine: 40
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  summary: "\nGives the domain of this variable.\n"
+  example: []
+  syntax:
+    content: IUniverseDomain GetDomain()
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+      description: The domain of this variable.
+    content.vb: Function GetDomain() As IUniverseDomain
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain*
+  see:
+  - linkId: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+    commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName
+  name: GetName
+  nameWithType: IUniverseVariable.GetName
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId
+  name: GetId
+  nameWithType: IUniverseVariable.GetId
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: IUniverseDomain
+  nameWithType: IUniverseDomain
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain
+  name: GetDomain
+  nameWithType: IUniverseVariable.GetDomain
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.GetDomain

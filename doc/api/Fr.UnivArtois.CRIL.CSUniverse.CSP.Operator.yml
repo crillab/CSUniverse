@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  id: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseArithmeticOperator
+  nameWithType: UniverseArithmeticOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseBooleanOperator
+  nameWithType: UniverseBooleanOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseRelationalOperator
+  nameWithType: UniverseRelationalOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: UniverseSetBelongingOperator
+  nameWithType: UniverseSetBelongingOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator

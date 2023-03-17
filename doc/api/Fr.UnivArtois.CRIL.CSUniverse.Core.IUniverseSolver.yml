@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  id: IUniverseSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUniverseSolver
+  nameWithType: IUniverseSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseSolver
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 27
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nThe UniverseSolverResult represents the result of the solver. \n"
+  example: []
+  syntax:
+    content: public interface IUniverseSolver
+    content.vb: Public Interface IUniverseSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  id: Solve
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Solve()
+  nameWithType: IUniverseSolver.Solve()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Solve
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 33
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSolves the problem associated to this solver.\n"
+  example: []
+  syntax:
+    content: UniverseSolverResult Solve()
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+      description: The outcome of the search conducted by the solver.
+    content.vb: Function Solve() As UniverseSolverResult
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  id: Solve(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Solve(string)
+  nameWithType: IUniverseSolver.Solve(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(string)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Solve
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 40
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSolves the problem stored in the given file. The solver is expected to parse the problem itself.\n"
+  example: []
+  syntax:
+    content: UniverseSolverResult Solve(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+      description: The name of the file containing the problem to solve.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+      description: The outcome of the search conducted by the solver.
+    content.vb: Function Solve(filename As String) As UniverseSolverResult
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*
+  nameWithType.vb: IUniverseSolver.Solve(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(String)
+  name.vb: Solve(String)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  id: Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Solve(IEnumerable<UniverseAssumption<int>>)
+  nameWithType: IUniverseSolver.Solve(IEnumerable<UniverseAssumption<int>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<int>>)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Solve
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 47
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSolves the problem associated to this solver.\n"
+  example: []
+  syntax:
+    content: UniverseSolverResult Solve(IEnumerable<UniverseAssumption<int>> assumptions)
+    parameters:
+    - id: assumptions
+      type: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}}
+      description: The assumptions to consider when solving.
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+      description: The outcome of the search conducted by the solver.
+    content.vb: Function Solve(assumptions As IEnumerable(Of UniverseAssumption(Of Integer))) As UniverseSolverResult
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*
+  nameWithType.vb: IUniverseSolver.Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Integer)))
+  name.vb: Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  id: Interrupt
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Interrupt()
+  nameWithType: IUniverseSolver.Interrupt()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Interrupt
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 52
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nInterrupts (asynchronously) the search currently performed by this solver.\n"
+  example: []
+  syntax:
+    content: void Interrupt()
+    content.vb: Sub Interrupt()
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  id: SetVerbosity(System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: SetVerbosity(int)
+  nameWithType: IUniverseSolver.SetVerbosity(int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(int)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetVerbosity
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 60
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSets the verbosity level of the solver.\nExtreme values(outside the range expected by the underlying solver) should be\nhandled silently as the minimum or maximum value supported by the solver.\n"
+  example: []
+  syntax:
+    content: void SetVerbosity(int level)
+    parameters:
+    - id: level
+      type: System.Int32
+      description: The verbosity level to set.
+    content.vb: Sub SetVerbosity(level As Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity*
+  nameWithType.vb: IUniverseSolver.SetVerbosity(Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(Integer)
+  name.vb: SetVerbosity(Integer)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  id: SetTimeout(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: SetTimeout(long)
+  nameWithType: IUniverseSolver.SetTimeout(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(long)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetTimeout
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 66
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSets the time limit before interrupting the search.\n"
+  example: []
+  syntax:
+    content: void SetTimeout(long seconds)
+    parameters:
+    - id: seconds
+      type: System.Int64
+      description: The time limit to set (in seconds).
+    content.vb: Sub SetTimeout(seconds As Long)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout*
+  nameWithType.vb: IUniverseSolver.SetTimeout(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(Long)
+  name.vb: SetTimeout(Long)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  id: SetTimeoutMs(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: SetTimeoutMs(long)
+  nameWithType: IUniverseSolver.SetTimeoutMs(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(long)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetTimeoutMs
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 72
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSets the time limit before interrupting the search.\n"
+  example: []
+  syntax:
+    content: void SetTimeoutMs(long mseconds)
+    parameters:
+    - id: mseconds
+      type: System.Int64
+      description: The time limit to set (in milli-seconds).
+    content.vb: Sub SetTimeoutMs(mseconds As Long)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs*
+  nameWithType.vb: IUniverseSolver.SetTimeoutMs(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(Long)
+  name.vb: SetTimeoutMs(Long)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  id: Reset
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: IUniverseSolver.Reset()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Reset
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 77
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nResets this solver in its original state.\n"
+  example: []
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset()
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  id: Solution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: Solution()
+  nameWithType: IUniverseSolver.Solution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Solution
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 83
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nGives the solution found by this solver (if any).\n"
+  example: []
+  syntax:
+    content: IEnumerable<int> Solution()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+      description: The solution found by this solver.
+    content.vb: Function Solution() As IEnumerable(Of Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  id: MapSolution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: MapSolution()
+  nameWithType: IUniverseSolver.MapSolution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: MapSolution
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 90
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nGives the mapping between the id of the variables and the assignment found by this\nsolver(if any).\n"
+  example: []
+  syntax:
+    content: Dictionary<string, int> MapSolution()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Int32}
+      description: The solution found by this solver.
+    content.vb: Function MapSolution() As Dictionary(Of String, Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  id: MapSolution(System.Boolean)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: MapSolution(bool)
+  nameWithType: IUniverseSolver.MapSolution(bool)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(bool)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: MapSolution
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 97
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Dictionary<string, int> MapSolution(bool excludeAux)
+    parameters:
+    - id: excludeAux
+      type: System.Boolean
+      description: ''
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Int32}
+      description: ''
+    content.vb: Function MapSolution(excludeAux As Boolean) As Dictionary(Of String, Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution*
+  nameWithType.vb: IUniverseSolver.MapSolution(Boolean)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(Boolean)
+  name.vb: MapSolution(Boolean)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  id: NVariables
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: NVariables()
+  nameWithType: IUniverseSolver.NVariables()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: NVariables
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 103
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nGives the number of variables defined in this solver.\n"
+  example: []
+  syntax:
+    content: int NVariables()
+    return:
+      type: System.Int32
+      description: The number of variables.
+    content.vb: Function NVariables() As Integer
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  id: NConstraints
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: NConstraints()
+  nameWithType: IUniverseSolver.NConstraints()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: NConstraints
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 109
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nGives the number of constraints defined in this solver.\n"
+  example: []
+  syntax:
+    content: int NConstraints()
+    return:
+      type: System.Int32
+      description: The number of constraints.
+    content.vb: Function NConstraints() As Integer
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  id: SetLogFile(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  langs:
+  - csharp
+  - vb
+  name: SetLogFile(string)
+  nameWithType: IUniverseSolver.SetLogFile(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(string)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: SetLogFile
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs
+    startLine: 115
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.Core
+  summary: "\nSets the log file to be used by the solver.\n"
+  example: []
+  syntax:
+    content: void SetLogFile(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+      description: The name of the log file.
+    content.vb: Sub SetLogFile(filename As String)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile*
+  nameWithType.vb: IUniverseSolver.SetLogFile(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(String)
+  name.vb: SetLogFile(String)
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  name: Solve
+  nameWithType: IUniverseSolver.Solve
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: UniverseSolverResult
+  nameWithType: UniverseSolverResult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}}
+  commentId: T:System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<UniverseAssumption<int>>
+  nameWithType: IEnumerable<UniverseAssumption<int>>
+  fullName: System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<int>>
+  nameWithType.vb: IEnumerable(Of UniverseAssumption(Of Integer))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Integer))
+  name.vb: IEnumerable(Of UniverseAssumption(Of Integer))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  name: Interrupt
+  nameWithType: IUniverseSolver.Interrupt
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity
+  name: SetVerbosity
+  nameWithType: IUniverseSolver.SetVerbosity
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout
+  name: SetTimeout
+  nameWithType: IUniverseSolver.SetTimeout
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs
+  name: SetTimeoutMs
+  nameWithType: IUniverseSolver.SetTimeoutMs
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  name: Reset
+  nameWithType: IUniverseSolver.Reset
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  name: Solution
+  nameWithType: IUniverseSolver.Solution
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<int>
+  nameWithType: IEnumerable<int>
+  fullName: System.Collections.Generic.IEnumerable<int>
+  nameWithType.vb: IEnumerable(Of Integer)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Integer)
+  name.vb: IEnumerable(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  name: MapSolution
+  nameWithType: IUniverseSolver.MapSolution
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+- uid: System.Collections.Generic.Dictionary{System.String,System.Int32}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<string, int>
+  nameWithType: Dictionary<string, int>
+  fullName: System.Collections.Generic.Dictionary<string, int>
+  nameWithType.vb: Dictionary(Of String, Integer)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Integer)
+  name.vb: Dictionary(Of String, Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  name: NVariables
+  nameWithType: IUniverseSolver.NVariables
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  name: NConstraints
+  nameWithType: IUniverseSolver.NConstraints
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile
+  name: SetLogFile
+  nameWithType: IUniverseSolver.SetLogFile
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile

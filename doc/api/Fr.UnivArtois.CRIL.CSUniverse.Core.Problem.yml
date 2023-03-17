@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  id: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: IUniverseConstraint
+  nameWithType: IUniverseConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: IUniverseDomain
+  nameWithType: IUniverseDomain
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem
+  name: IUniverseProblem
+  nameWithType: IUniverseProblem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: IUniverseVariable
+  nameWithType: IUniverseVariable
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.Problem
+    name: Problem

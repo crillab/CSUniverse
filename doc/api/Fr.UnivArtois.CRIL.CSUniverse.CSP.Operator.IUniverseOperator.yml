@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  id: IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  langs:
+  - csharp
+  - vb
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniverseOperator
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseOperator.cs
+    startLine: 29
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  summary: "\nThe Operator interface is a marker interface for all kinds of operators that can appear\nin a constraint.\n"
+  example: []
+  syntax:
+    content: public interface IUniverseOperator
+    content.vb: Public Interface IUniverseOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  id: Values
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  langs:
+  - csharp
+  - vb
+  name: Values()
+  nameWithType: IUniverseOperator.Values()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseOperator.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Values
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Operator/UniverseOperator.cs
+    startLine: 31
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  syntax:
+    content: IEnumerable<IUniverseOperator> Values()
+    return:
+      type: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+    content.vb: Function Values() As IEnumerable(Of IUniverseOperator)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values*
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+  name: Values
+  nameWithType: IUniverseOperator.Values
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.Values
+- uid: System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  commentId: T:System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<IUniverseOperator>
+  nameWithType: IEnumerable<IUniverseOperator>
+  fullName: System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator>
+  nameWithType.vb: IEnumerable(Of IUniverseOperator)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  name.vb: IEnumerable(Of IUniverseOperator)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    name: IUniverseOperator
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

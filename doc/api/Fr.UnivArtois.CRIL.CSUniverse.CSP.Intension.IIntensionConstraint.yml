@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  id: IIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  langs:
+  - csharp
+  - vb
+  name: IIntensionConstraint
+  nameWithType: IIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IIntensionConstraint
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraint.cs
+    startLine: 26
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nThe IIntensionConstraint defines an interface for representing the abstract syntax tree\nof an intension constraint, to allow its encoding using pseudo-Boolean constraints\nand/or clauses.\n"
+  example: []
+  syntax:
+    content: public interface IIntensionConstraint
+    content.vb: Public Interface IIntensionConstraint
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  id: Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: Accept(IIntensionConstraintVisitor)
+  nameWithType: IIntensionConstraint.Accept(IIntensionConstraintVisitor)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Accept
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IIntensionConstraint.cs
+    startLine: 28
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  syntax:
+    content: void Accept(IIntensionConstraintVisitor visitor)
+    parameters:
+    - id: visitor
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+    content.vb: Sub Accept(visitor As IIntensionConstraintVisitor)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept*
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept
+  name: Accept
+  nameWithType: IIntensionConstraint.Accept
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraintVisitor
+  nameWithType: IIntensionConstraintVisitor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor

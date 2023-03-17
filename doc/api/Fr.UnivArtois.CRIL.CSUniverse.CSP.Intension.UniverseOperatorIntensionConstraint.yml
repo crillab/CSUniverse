@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  id: UniverseOperatorIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Op
+  langs:
+  - csharp
+  - vb
+  name: UniverseOperatorIntensionConstraint
+  nameWithType: UniverseOperatorIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  type: Class
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: UniverseOperatorIntensionConstraint
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+    startLine: 30
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nThe OperatorIntensionConstraint is the parent class of all the implementations of\n{@link IIntensionConstraint} that apply an operator on some other intension\nconstraint(s).\n\n\n"
+  example: []
+  syntax:
+    content: 'public abstract class UniverseOperatorIntensionConstraint : IIntensionConstraint'
+    content.vb: Public MustInherit Class UniverseOperatorIntensionConstraint Implements IIntensionConstraint
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Op
+  commentId: F:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Op
+  id: Op
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: Op
+  nameWithType: UniverseOperatorIntensionConstraint.Op
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Op
+  type: Field
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Op
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+    startLine: 36
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nThe operator applied by this constraint.\n"
+  example: []
+  syntax:
+    content: protected IUniverseOperator Op
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    content.vb: Protected Op As IUniverseOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  id: '#ctor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)'
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: UniverseOperatorIntensionConstraint(IUniverseOperator)
+  nameWithType: UniverseOperatorIntensionConstraint.UniverseOperatorIntensionConstraint(IUniverseOperator)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.UniverseOperatorIntensionConstraint(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  type: Constructor
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: .ctor
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+    startLine: 43
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nCreates a new OperatorIntensionConstraint.\n\n"
+  example: []
+  syntax:
+    content: protected UniverseOperatorIntensionConstraint(IUniverseOperator op)
+    parameters:
+    - id: op
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+      description: The op applied by the constraint.
+    content.vb: Protected Sub New(op As IUniverseOperator)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor*
+  nameWithType.vb: UniverseOperatorIntensionConstraint.New(IUniverseOperator)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.New(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator)
+  name.vb: New(IUniverseOperator)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator
+  id: GetOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: GetOperator()
+  nameWithType: UniverseOperatorIntensionConstraint.GetOperator()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator()
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: GetOperator
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+    startLine: 53
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  summary: "\nGives the op applied by this constraint.\n\n<return>op applied by this constraint.</return>\n"
+  example: []
+  syntax:
+    content: public IUniverseOperator GetOperator()
+    return:
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+    content.vb: Public Function GetOperator() As IUniverseOperator
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator*
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  id: Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint
+  langs:
+  - csharp
+  - vb
+  name: Accept(IIntensionConstraintVisitor)
+  nameWithType: UniverseOperatorIntensionConstraint.Accept(IIntensionConstraintVisitor)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: Accept
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/UniverseOperatorIntensionConstraint.cs
+    startLine: 58
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  syntax:
+    content: public abstract void Accept(IIntensionConstraintVisitor visitor)
+    parameters:
+    - id: visitor
+      type: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+    content.vb: Public MustOverride Sub Accept(visitor As IIntensionConstraintVisitor)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept*
+  implements:
+  - Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+    name: Intension
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraint
+  nameWithType: IIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: IUniverseOperator
+  nameWithType: IUniverseOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  name: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP
+    name: CSP
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator
+    name: Operator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.#ctor
+  name: UniverseOperatorIntensionConstraint
+  nameWithType: UniverseOperatorIntensionConstraint.UniverseOperatorIntensionConstraint
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.UniverseOperatorIntensionConstraint
+  nameWithType.vb: UniverseOperatorIntensionConstraint.New
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.New
+  name.vb: New
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator
+  name: GetOperator
+  nameWithType: UniverseOperatorIntensionConstraint.GetOperator
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.GetOperator
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept
+  name: Accept
+  nameWithType: UniverseOperatorIntensionConstraint.Accept
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.Accept
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint
+  name: Accept(IIntensionConstraintVisitor)
+  nameWithType: IIntensionConstraint.Accept(IIntensionConstraintVisitor)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+    name: Accept
+  - name: (
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+    name: IIntensionConstraintVisitor
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.Accept(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor)
+    name: Accept
+  - name: (
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+    name: IIntensionConstraintVisitor
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor
+  parent: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension
+  name: IIntensionConstraintVisitor
+  nameWithType: IIntensionConstraintVisitor
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor

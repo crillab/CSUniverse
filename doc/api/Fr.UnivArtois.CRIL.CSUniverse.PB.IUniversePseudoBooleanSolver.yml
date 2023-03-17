@@ -1,0 +1,1189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  id: IUniversePseudoBooleanSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  - Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Boolean,System.Numerics.BigInteger)
+  langs:
+  - csharp
+  - vb
+  name: IUniversePseudoBooleanSolver
+  nameWithType: IUniversePseudoBooleanSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  type: Interface
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: IUniversePseudoBooleanSolver
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 25
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  syntax:
+    content: 'public interface IUniversePseudoBooleanSolver : IUniverseSatSolver, IUniverseSolver'
+    content.vb: Public Interface IUniversePseudoBooleanSolver Inherits IUniverseSatSolver, IUniverseSolver
+  inheritedMembers:
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Boolean,System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Boolean,System.Numerics.BigInteger)
+  id: AddPseudoBoolean(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Boolean,System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddPseudoBoolean(IList<int>, IList<BigInteger>, bool, BigInteger)
+  nameWithType: IUniversePseudoBooleanSolver.AddPseudoBoolean(IList<int>, IList<BigInteger>, bool, BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Numerics.BigInteger>, bool, System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddPseudoBoolean
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 39
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a Pseudo-Boolean constraint of the type &quot;at least n or at most n\nof those literals must be satisfied&quot;\n"
+  example: []
+  syntax:
+    content: void AddPseudoBoolean(IList<int> lits, IList<BigInteger> coeffs, bool moreThan, BigInteger d)
+    parameters:
+    - id: lits
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals. The vector can be reused since the solver
+                  is not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Numerics.BigInteger}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                   vector.
+    - id: moreThan
+      type: System.Boolean
+      description: >-
+        true if it is a constraint >= degree, false if it is a
+                   constraint &lt;= degree
+    - id: d
+      type: System.Numerics.BigInteger
+      description: the degree of the cardinality constraint
+    content.vb: Sub AddPseudoBoolean(lits As IList(Of Integer), coeffs As IList(Of BigInteger), moreThan As Boolean, d As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddPseudoBoolean(IList(Of Integer), IList(Of BigInteger), Boolean, BigInteger)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Numerics.BigInteger), Boolean, System.Numerics.BigInteger)
+  name.vb: AddPseudoBoolean(IList(Of Integer), IList(Of BigInteger), Boolean, BigInteger)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  id: AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddAtMost(IList<int>, IList<int>, int)
+  nameWithType: IUniversePseudoBooleanSolver.AddAtMost(IList<int>, IList<int>, int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<int>, int)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddAtMost
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 51
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo bool constraint of the type &quot;at most&quot;.\n"
+  example: []
+  syntax:
+    content: void AddAtMost(IList<int> literals, IList<int> coeffs, int degree)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals The vector can be reused since the solver is
+                  not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                 vector.
+    - id: degree
+      type: System.Int32
+      description: the degree of the pseudo-bool constraint
+    content.vb: Sub AddAtMost(literals As IList(Of Integer), coeffs As IList(Of Integer), degree As Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddAtMost(IList(Of Integer), IList(Of Integer), Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of Integer), Integer)
+  name.vb: AddAtMost(IList(Of Integer), IList(Of Integer), Integer)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  id: AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddAtMost(IList<int>, IList<BigInteger>, BigInteger)
+  nameWithType: IUniversePseudoBooleanSolver.AddAtMost(IList<int>, IList<BigInteger>, BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Numerics.BigInteger>, System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddAtMost
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 62
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo bool constraint of the type &quot;at most&quot;.\n"
+  example: []
+  syntax:
+    content: void AddAtMost(IList<int> literals, IList<BigInteger> coeffs, BigInteger degree)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals The vector can be reused since the solver is
+                  not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Numerics.BigInteger}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                   vector.
+    - id: degree
+      type: System.Numerics.BigInteger
+      description: the degree of the pseudo-bool constraint
+    content.vb: Sub AddAtMost(literals As IList(Of Integer), coeffs As IList(Of BigInteger), degree As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddAtMost(IList(Of Integer), IList(Of BigInteger), BigInteger)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Numerics.BigInteger), System.Numerics.BigInteger)
+  name.vb: AddAtMost(IList(Of Integer), IList(Of BigInteger), BigInteger)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  id: AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddAtLeast(IList<int>, IList<int>, int)
+  nameWithType: IUniversePseudoBooleanSolver.AddAtLeast(IList<int>, IList<int>, int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<int>, int)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddAtLeast
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 74
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo-bool constraint of the type &quot;at least&quot;\n"
+  example: []
+  syntax:
+    content: void AddAtLeast(IList<int> literals, IList<int> coeffs, int degree)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals. The vector can be reused since the solver
+                   is not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                   vector.
+    - id: degree
+      type: System.Int32
+      description: the degree of the pseudo-bool constraint
+    content.vb: Sub AddAtLeast(literals As IList(Of Integer), coeffs As IList(Of Integer), degree As Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddAtLeast(IList(Of Integer), IList(Of Integer), Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of Integer), Integer)
+  name.vb: AddAtLeast(IList(Of Integer), IList(Of Integer), Integer)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  id: AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddAtLeast(IList<int>, IList<BigInteger>, BigInteger)
+  nameWithType: IUniversePseudoBooleanSolver.AddAtLeast(IList<int>, IList<BigInteger>, BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Numerics.BigInteger>, System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddAtLeast
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 86
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo-bool constraint of the type &quot;at least&quot;.\n"
+  example: []
+  syntax:
+    content: void AddAtLeast(IList<int> literals, IList<BigInteger> coeffs, BigInteger degree)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals. The vector can be reused since the solver
+                  is not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Numerics.BigInteger}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                  since the solver is not supposed to keep a reference to that
+                  vector.
+    - id: degree
+      type: System.Numerics.BigInteger
+      description: the degree of the pseudo-bool constraint
+    content.vb: Sub AddAtLeast(literals As IList(Of Integer), coeffs As IList(Of BigInteger), degree As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddAtLeast(IList(Of Integer), IList(Of BigInteger), BigInteger)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Numerics.BigInteger), System.Numerics.BigInteger)
+  name.vb: AddAtLeast(IList(Of Integer), IList(Of BigInteger), BigInteger)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  id: AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddExactly(IList<int>, IList<int>, int)
+  nameWithType: IUniversePseudoBooleanSolver.AddExactly(IList<int>, IList<int>, int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<int>, int)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddExactly
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 98
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo-bool constraint of the type &quot;subset sum&quot;.\n"
+  example: []
+  syntax:
+    content: void AddExactly(IList<int> literals, IList<int> coeffs, int weight)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals. The vector can be reused since the solver
+                   is not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                   vector.
+    - id: weight
+      type: System.Int32
+      description: the number of literals that must be satisfied
+    content.vb: Sub AddExactly(literals As IList(Of Integer), coeffs As IList(Of Integer), weight As Integer)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddExactly(IList(Of Integer), IList(Of Integer), Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of Integer), Integer)
+  name.vb: AddExactly(IList(Of Integer), IList(Of Integer), Integer)
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  id: AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver
+  langs:
+  - csharp
+  - vb
+  name: AddExactly(IList<int>, IList<BigInteger>, BigInteger)
+  nameWithType: IUniversePseudoBooleanSolver.AddExactly(IList<int>, IList<BigInteger>, BigInteger)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList<int>, System.Collections.Generic.IList<System.Numerics.BigInteger>, System.Numerics.BigInteger)
+  type: Method
+  source:
+    remote:
+      path: docfx_project/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+      branch: main
+      repo: https://gitlab.univ-artois.fr/cril-exakis-nelite-adp/softwares-tfa/cp/tootatis/csuniverse.git
+    id: AddExactly
+    path: src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs
+    startLine: 109
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+  namespace: Fr.UnivArtois.CRIL.CSUniverse.PB
+  summary: "\nCreate a pseudo-bool constraint of the type &quot;subset sum&quot;.\n"
+  example: []
+  syntax:
+    content: void AddExactly(IList<int> literals, IList<BigInteger> coeffs, BigInteger weight)
+    parameters:
+    - id: literals
+      type: System.Collections.Generic.IList{System.Int32}
+      description: >-
+        a set of literals. The vector can be reused since the solver
+                  is not supposed to keep a reference to that vector.
+    - id: coeffs
+      type: System.Collections.Generic.IList{System.Numerics.BigInteger}
+      description: >-
+        the coefficients of the literals. The vector can be reused
+                   since the solver is not supposed to keep a reference to that
+                   vector.
+    - id: weight
+      type: System.Numerics.BigInteger
+      description: the number of literals that must be satisfied
+    content.vb: Sub AddExactly(literals As IList(Of Integer), coeffs As IList(Of BigInteger), weight As BigInteger)
+  overload: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly*
+  nameWithType.vb: IUniversePseudoBooleanSolver.AddExactly(IList(Of Integer), IList(Of BigInteger), BigInteger)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList(Of Integer), System.Collections.Generic.IList(Of System.Numerics.BigInteger), System.Numerics.BigInteger)
+  name.vb: AddExactly(IList(Of Integer), IList(Of BigInteger), BigInteger)
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.PB
+  name: Fr.UnivArtois.CRIL.CSUniverse.PB
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.PB
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.PB
+    name: PB
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.PB
+    name: PB
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  isExternal: true
+  name: AddClause(IList<int>)
+  nameWithType: IUniverseSatSolver.AddClause(IList<int>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList<int>)
+  nameWithType.vb: IUniverseSatSolver.AddClause(IList(Of Integer))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList(Of Integer))
+  name.vb: AddClause(IList(Of Integer))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+    name: AddClause
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddClause(System.Collections.Generic.IList{System.Int32})
+    name: AddClause
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  isExternal: true
+  name: AddAllClauses(IList<IList<int>>)
+  nameWithType: IUniverseSatSolver.AddAllClauses(IList<IList<int>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList<System.Collections.Generic.IList<int>>)
+  nameWithType.vb: IUniverseSatSolver.AddAllClauses(IList(Of IList(Of Integer)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList(Of System.Collections.Generic.IList(Of Integer)))
+  name.vb: AddAllClauses(IList(Of IList(Of Integer)))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+    name: AddAllClauses
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.AddAllClauses(System.Collections.Generic.IList{System.Collections.Generic.IList{System.Int32}})
+    name: AddAllClauses
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  isExternal: true
+  name: SolveBoolean(IList<UniverseAssumption<bool>>)
+  nameWithType: IUniverseSatSolver.SolveBoolean(IList<UniverseAssumption<bool>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<bool>>)
+  nameWithType.vb: IUniverseSatSolver.SolveBoolean(IList(Of UniverseAssumption(Of Boolean)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Boolean)))
+  name.vb: SolveBoolean(IList(Of UniverseAssumption(Of Boolean)))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+    name: SolveBoolean
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Boolean}})
+    name: SolveBoolean
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  isExternal: true
+  name: SolveBoolean(IList<UniverseAssumption<BigInteger>>)
+  nameWithType: IUniverseSatSolver.SolveBoolean(IList<UniverseAssumption<BigInteger>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<System.Numerics.BigInteger>>)
+  nameWithType.vb: IUniverseSatSolver.SolveBoolean(IList(Of UniverseAssumption(Of BigInteger)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of System.Numerics.BigInteger)))
+  name.vb: SolveBoolean(IList(Of UniverseAssumption(Of BigInteger)))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+    name: SolveBoolean
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.SolveBoolean(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Numerics.BigInteger}})
+    name: SolveBoolean
+  - name: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: )
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Solve()
+  nameWithType: IUniverseSolver.Solve()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+    name: Solve
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve
+    name: Solve
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: Solve(string)
+  nameWithType: IUniverseSolver.Solve(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(string)
+  nameWithType.vb: IUniverseSolver.Solve(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(String)
+  name.vb: Solve(String)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+    name: Solve
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)
+    name: Solve
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: Solve(IEnumerable<UniverseAssumption<int>>)
+  nameWithType: IUniverseSolver.Solve(IEnumerable<UniverseAssumption<int>>)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable<Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<int>>)
+  nameWithType.vb: IUniverseSolver.Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable(Of Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of Integer)))
+  name.vb: Solve(IEnumerable(Of UniverseAssumption(Of Integer)))
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+    name: Solve
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})
+    name: Solve
+  - name: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+  - name: )
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Interrupt()
+  nameWithType: IUniverseSolver.Interrupt()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+    name: Interrupt
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt
+    name: Interrupt
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetVerbosity(int)
+  nameWithType: IUniverseSolver.SetVerbosity(int)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(int)
+  nameWithType.vb: IUniverseSolver.SetVerbosity(Integer)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(Integer)
+  name.vb: SetVerbosity(Integer)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+    name: SetVerbosity
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)
+    name: SetVerbosity
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetTimeout(long)
+  nameWithType: IUniverseSolver.SetTimeout(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(long)
+  nameWithType.vb: IUniverseSolver.SetTimeout(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(Long)
+  name.vb: SetTimeout(Long)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+    name: SetTimeout
+  - name: (
+  - uid: System.Int64
+    name: long
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)
+    name: SetTimeout
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetTimeoutMs(long)
+  nameWithType: IUniverseSolver.SetTimeoutMs(long)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(long)
+  nameWithType.vb: IUniverseSolver.SetTimeoutMs(Long)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(Long)
+  name.vb: SetTimeoutMs(Long)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+    name: SetTimeoutMs
+  - name: (
+  - uid: System.Int64
+    name: long
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)
+    name: SetTimeoutMs
+  - name: (
+  - uid: System.Int64
+    name: Long
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Reset()
+  nameWithType: IUniverseSolver.Reset()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+    name: Reset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset
+    name: Reset
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: Solution()
+  nameWithType: IUniverseSolver.Solution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+    name: Solution
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution
+    name: Solution
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: MapSolution()
+  nameWithType: IUniverseSolver.MapSolution()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+    name: MapSolution
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution
+    name: MapSolution
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: MapSolution(bool)
+  nameWithType: IUniverseSolver.MapSolution(bool)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(bool)
+  nameWithType.vb: IUniverseSolver.MapSolution(Boolean)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(Boolean)
+  name.vb: MapSolution(Boolean)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+    name: MapSolution
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)
+    name: MapSolution
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: NVariables()
+  nameWithType: IUniverseSolver.NVariables()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+    name: NVariables
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables
+    name: NVariables
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  name: NConstraints()
+  nameWithType: IUniverseSolver.NConstraints()
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints()
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+    name: NConstraints
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints
+    name: NConstraints
+  - name: (
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  commentId: M:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  isExternal: true
+  name: SetLogFile(string)
+  nameWithType: IUniverseSolver.SetLogFile(string)
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(string)
+  nameWithType.vb: IUniverseSolver.SetLogFile(String)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(String)
+  name.vb: SetLogFile(String)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+    name: SetLogFile
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)
+    name: SetLogFile
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  name: IUniverseSatSolver
+  nameWithType: IUniverseSatSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: IUniverseSolver
+  nameWithType: IUniverseSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Sat
+  name: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Sat
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+    name: Sat
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Sat
+    name: Sat
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean
+  name: AddPseudoBoolean
+  nameWithType: IUniversePseudoBooleanSolver.AddPseudoBoolean
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean
+- uid: System.Collections.Generic.IList{System.Int32}
+  commentId: T:System.Collections.Generic.IList{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<int>
+  nameWithType: IList<int>
+  fullName: System.Collections.Generic.IList<int>
+  nameWithType.vb: IList(Of Integer)
+  fullName.vb: System.Collections.Generic.IList(Of Integer)
+  name.vb: IList(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IList{System.Numerics.BigInteger}
+  commentId: T:System.Collections.Generic.IList{System.Numerics.BigInteger}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<BigInteger>
+  nameWithType: IList<BigInteger>
+  fullName: System.Collections.Generic.IList<System.Numerics.BigInteger>
+  nameWithType.vb: IList(Of BigInteger)
+  fullName.vb: System.Collections.Generic.IList(Of System.Numerics.BigInteger)
+  name.vb: IList(Of BigInteger)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost
+  name: AddAtMost
+  nameWithType: IUniversePseudoBooleanSolver.AddAtMost
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast
+  name: AddAtLeast
+  nameWithType: IUniversePseudoBooleanSolver.AddAtLeast
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast
+- uid: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly*
+  commentId: Overload:Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly
+  name: AddExactly
+  nameWithType: IUniversePseudoBooleanSolver.AddExactly
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly

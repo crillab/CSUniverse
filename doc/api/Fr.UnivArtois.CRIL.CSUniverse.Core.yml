@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  id: Fr.UnivArtois.CRIL.CSUniverse.Core
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+  - Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: IUniverseSolver
+  nameWithType: IUniverseSolver
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+  name: UniverseAssumption<T>
+  nameWithType: UniverseAssumption<T>
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption<T>
+  nameWithType.vb: UniverseAssumption(Of T)
+  fullName.vb: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption(Of T)
+  name.vb: UniverseAssumption(Of T)
+  spec.csharp:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption`1
+    name: UniverseAssumption
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+  parent: Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: UniverseSolverResult
+  nameWithType: UniverseSolverResult
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Core
+  name: Fr.UnivArtois.CRIL.CSUniverse.Core
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Core
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Core
+  spec.csharp:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core
+  spec.vb:
+  - uid: Fr
+    name: Fr
+  - name: .
+  - uid: Fr.UnivArtois
+    name: UnivArtois
+  - name: .
+  - uid: Fr.UnivArtois.CRIL
+    name: CRIL
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse
+    name: CSUniverse
+  - name: .
+  - uid: Fr.UnivArtois.CRIL.CSUniverse.Core
+    name: Core

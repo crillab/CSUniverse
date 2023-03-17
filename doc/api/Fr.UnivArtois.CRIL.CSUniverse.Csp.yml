@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  commentId: N:Fr.UnivArtois.CRIL.CSUniverse.Csp
+  id: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  children:
+  - Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition
+  langs:
+  - csharp
+  - vb
+  name: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  nameWithType: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Csp
+  type: Namespace
+  assemblies:
+  - Fr.UnivArtois.CRIL.CSUniverse
+references:
+- uid: Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition
+  commentId: T:Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition
+  name: UniverseTransition
+  nameWithType: UniverseTransition
+  fullName: Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition
