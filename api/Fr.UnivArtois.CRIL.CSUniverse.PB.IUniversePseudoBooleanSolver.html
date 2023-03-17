@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IUniversePseudoBooleanSolver
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IUniversePseudoBooleanSolver
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver">
+
+
+  <h1 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver" class="text-break">Interface IUniversePseudoBooleanSolver
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Sat_IUniverseSatSolver_AddClause_System_Collections_Generic_IList_System_Int32__">IUniverseSatSolver.AddClause(IList&lt;int&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Sat_IUniverseSatSolver_AddAllClauses_System_Collections_Generic_IList_System_Collections_Generic_IList_System_Int32___">IUniverseSatSolver.AddAllClauses(IList&lt;IList&lt;int&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Sat_IUniverseSatSolver_SolveBoolean_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_Core_UniverseAssumption_System_Boolean___">IUniverseSatSolver.SolveBoolean(IList&lt;UniverseAssumption&lt;bool&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Sat_IUniverseSatSolver_SolveBoolean_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_Core_UniverseAssumption_System_Numerics_BigInteger___">IUniverseSatSolver.SolveBoolean(IList&lt;UniverseAssumption&lt;BigInteger&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve">IUniverseSolver.Solve()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_String_">IUniverseSolver.Solve(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_Collections_Generic_IEnumerable_Fr_UnivArtois_CRIL_CSUniverse_Core_UniverseAssumption_System_Int32___">IUniverseSolver.Solve(IEnumerable&lt;UniverseAssumption&lt;int&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Interrupt">IUniverseSolver.Interrupt()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetVerbosity_System_Int32_">IUniverseSolver.SetVerbosity(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeout_System_Int64_">IUniverseSolver.SetTimeout(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeoutMs_System_Int64_">IUniverseSolver.SetTimeoutMs(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Reset">IUniverseSolver.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solution">IUniverseSolver.Solution()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution">IUniverseSolver.MapSolution()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution_System_Boolean_">IUniverseSolver.MapSolution(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NVariables">IUniverseSolver.NVariables()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NConstraints">IUniverseSolver.NConstraints()</a>
+    </div>
+    <div>
+      <a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html#Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetLogFile_System_String_">IUniverseSolver.SetLogFile(string)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Fr</span>.<span class="xref">UnivArtois</span>.<span class="xref">CRIL</span>.<span class="xref">CSUniverse</span>.<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.PB.html">PB</a></h6>
+  <h6><strong>Assembly</strong>: Fr.UnivArtois.CRIL.CSUniverse.dll</h6>
+  <h5 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IUniversePseudoBooleanSolver : IUniverseSatSolver, IUniverseSolver</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L75">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)">AddAtLeast(IList&lt;int&gt;, IList&lt;int&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo-bool constraint of the type &quot;at least&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddAtLeast(IList&lt;int&gt; literals, IList&lt;int&gt; coeffs, int degree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals. The vector can be reused since the solver
+is not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">degree</span></td>
+        <td><p>the degree of the pseudo-bool constraint</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Numerics.BigInteger%7D%2CSystem.Numerics.BigInteger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L87">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtLeast_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtLeast(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)">AddAtLeast(IList&lt;int&gt;, IList&lt;BigInteger&gt;, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo-bool constraint of the type &quot;at least&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddAtLeast(IList&lt;int&gt; literals, IList&lt;BigInteger&gt; coeffs, BigInteger degree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals. The vector can be reused since the solver
+is not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">degree</span></td>
+        <td><p>the degree of the pseudo-bool constraint</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L52">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)">AddAtMost(IList&lt;int&gt;, IList&lt;int&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo bool constraint of the type &quot;at most&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddAtMost(IList&lt;int&gt; literals, IList&lt;int&gt; coeffs, int degree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals The vector can be reused since the solver is
+not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">degree</span></td>
+        <td><p>the degree of the pseudo-bool constraint</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Numerics.BigInteger%7D%2CSystem.Numerics.BigInteger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L63">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddAtMost_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddAtMost(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)">AddAtMost(IList&lt;int&gt;, IList&lt;BigInteger&gt;, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo bool constraint of the type &quot;at most&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddAtMost(IList&lt;int&gt; literals, IList&lt;BigInteger&gt; coeffs, BigInteger degree)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals The vector can be reused since the solver is
+not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">degree</span></td>
+        <td><p>the degree of the pseudo-bool constraint</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L99">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Int32_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Int32},System.Int32)">AddExactly(IList&lt;int&gt;, IList&lt;int&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo-bool constraint of the type &quot;subset sum&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddExactly(IList&lt;int&gt; literals, IList&lt;int&gt; coeffs, int weight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals. The vector can be reused since the solver
+is not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">weight</span></td>
+        <td><p>the number of literals that must be satisfied</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Numerics.BigInteger%7D%2CSystem.Numerics.BigInteger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L110">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddExactly_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Numerics_BigInteger_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddExactly(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Numerics.BigInteger)">AddExactly(IList&lt;int&gt;, IList&lt;BigInteger&gt;, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Create a pseudo-bool constraint of the type &quot;subset sum&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddExactly(IList&lt;int&gt; literals, IList&lt;BigInteger&gt; coeffs, BigInteger weight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">literals</span></td>
+        <td><p>a set of literals. The vector can be reused since the solver
+is not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">weight</span></td>
+        <td><p>the number of literals that must be satisfied</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddPseudoBoolean_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Boolean_System_Numerics_BigInteger_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList%7BSystem.Int32%7D%2CSystem.Collections.Generic.IList%7BSystem.Numerics.BigInteger%7D%2CSystem.Boolean%2CSystem.Numerics.BigInteger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L40">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddPseudoBoolean_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver_AddPseudoBoolean_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Numerics_BigInteger__System_Boolean_System_Numerics_BigInteger_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.AddPseudoBoolean(System.Collections.Generic.IList{System.Int32},System.Collections.Generic.IList{System.Numerics.BigInteger},System.Boolean,System.Numerics.BigInteger)">AddPseudoBoolean(IList&lt;int&gt;, IList&lt;BigInteger&gt;, bool, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Create a Pseudo-Boolean constraint of the type &quot;at least n or at most n
+of those literals must be satisfied&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddPseudoBoolean(IList&lt;int&gt; lits, IList&lt;BigInteger&gt; coeffs, bool moreThan, BigInteger d)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><span class="parametername">lits</span></td>
+        <td><p>a set of literals. The vector can be reused since the solver
+is not supposed to keep a reference to that vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td><span class="parametername">coeffs</span></td>
+        <td><p>the coefficients of the literals. The vector can be reused
+since the solver is not supposed to keep a reference to that
+vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">moreThan</span></td>
+        <td><p>true if it is a constraint &gt;= degree, false if it is a
+constraint &lt;= degree</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">d</span></td>
+        <td><p>the degree of the cardinality constraint</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_PB_IUniversePseudoBooleanSolver.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/PB/IUniversePseudoBooleanSolver.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,606 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IUniverseSolver
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IUniverseSolver
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver">
+
+
+  <h1 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver" class="text-break">Interface IUniverseSolver
+</h1>
+  <div class="markdown level0 summary"><p>The UniverseSolverResult represents the result of the solver.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <span class="xref">Fr</span>.<span class="xref">UnivArtois</span>.<span class="xref">CRIL</span>.<span class="xref">CSUniverse</span>.<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.html">Core</a></h6>
+  <h6><strong>Assembly</strong>: Fr.UnivArtois.CRIL.CSUniverse.dll</h6>
+  <h5 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IUniverseSolver</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Interrupt.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L53">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Interrupt_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Interrupt" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Interrupt">Interrupt()</h4>
+  <div class="markdown level1 summary"><p>Interrupts (asynchronously) the search currently performed by this solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Interrupt()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L91">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution">MapSolution()</h4>
+  <div class="markdown level1 summary"><p>Gives the mapping between the id of the variables and the assignment found by this
+solver(if any).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;string, int&gt; MapSolution()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">string</span>, <span class="xref">int</span>&gt;</td>
+        <td><p>The solution found by this solver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution_System_Boolean_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L98">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_MapSolution_System_Boolean_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.MapSolution(System.Boolean)">MapSolution(bool)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;string, int&gt; MapSolution(bool excludeAux)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">excludeAux</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span>&lt;<span class="xref">string</span>, <span class="xref">int</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NConstraints.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L110">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NConstraints_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NConstraints" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NConstraints">NConstraints()</h4>
+  <div class="markdown level1 summary"><p>Gives the number of constraints defined in this solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int NConstraints()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>The number of constraints.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NVariables.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L104">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NVariables_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_NVariables" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.NVariables">NVariables()</h4>
+  <div class="markdown level1 summary"><p>Gives the number of variables defined in this solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int NVariables()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>The number of variables.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Reset.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L78">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Reset_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Reset" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets this solver in its original state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetLogFile_System_String_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L116">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetLogFile_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetLogFile_System_String_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetLogFile(System.String)">SetLogFile(string)</h4>
+  <div class="markdown level1 summary"><p>Sets the log file to be used by the solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetLogFile(string filename)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td><p>The name of the log file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeout_System_Int64_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L67">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeout_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeout_System_Int64_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeout(System.Int64)">SetTimeout(long)</h4>
+  <div class="markdown level1 summary"><p>Sets the time limit before interrupting the search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeout(long seconds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">long</span></td>
+        <td><span class="parametername">seconds</span></td>
+        <td><p>The time limit to set (in seconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeoutMs_System_Int64_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L73">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeoutMs_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetTimeoutMs_System_Int64_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetTimeoutMs(System.Int64)">SetTimeoutMs(long)</h4>
+  <div class="markdown level1 summary"><p>Sets the time limit before interrupting the search.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTimeoutMs(long mseconds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">long</span></td>
+        <td><span class="parametername">mseconds</span></td>
+        <td><p>The time limit to set (in milli-seconds).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetVerbosity_System_Int32_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L61">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetVerbosity_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_SetVerbosity_System_Int32_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.SetVerbosity(System.Int32)">SetVerbosity(int)</h4>
+  <div class="markdown level1 summary"><p>Sets the verbosity level of the solver.
+Extreme values(outside the range expected by the underlying solver) should be
+handled silently as the minimum or maximum value supported by the solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetVerbosity(int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">level</span></td>
+        <td><p>The verbosity level to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solution.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L84">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solution_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solution" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solution">Solution()</h4>
+  <div class="markdown level1 summary"><p>Gives the solution found by this solver (if any).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;int&gt; Solution()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<span class="xref">int</span>&gt;</td>
+        <td><p>The solution found by this solver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L34">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve">Solve()</h4>
+  <div class="markdown level1 summary"><p>Solves the problem associated to this solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UniverseSolverResult Solve()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.html">UniverseSolverResult</a></td>
+        <td><p>The outcome of the search conducted by the solver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_Collections_Generic_IEnumerable_Fr_UnivArtois_CRIL_CSUniverse_Core_UniverseAssumption_System_Int32___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable%7BFr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption%7BSystem.Int32%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L48">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_Collections_Generic_IEnumerable_Fr_UnivArtois_CRIL_CSUniverse_Core_UniverseAssumption_System_Int32___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.Collections.Generic.IEnumerable{Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption{System.Int32}})">Solve(IEnumerable&lt;UniverseAssumption&lt;int&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Solves the problem associated to this solver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UniverseSolverResult Solve(IEnumerable&lt;UniverseAssumption&lt;int&gt;&gt; assumptions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption-1.html">UniverseAssumption</a>&lt;<span class="xref">int</span>&gt;&gt;</td>
+        <td><span class="parametername">assumptions</span></td>
+        <td><p>The assumptions to consider when solving.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.html">UniverseSolverResult</a></td>
+        <td><p>The outcome of the search conducted by the solver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_String_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L41">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver_Solve_System_String_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.Solve(System.String)">Solve(string)</h4>
+  <div class="markdown level1 summary"><p>Solves the problem stored in the given file. The solver is expected to parse the problem itself.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UniverseSolverResult Solve(string filename)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">filename</span></td>
+        <td><p>The name of the file containing the problem to solve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.html">UniverseSolverResult</a></td>
+        <td><p>The outcome of the search conducted by the solver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_Core_IUniverseSolver.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/Core/IUniverseSolver.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

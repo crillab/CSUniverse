@@ -1,0 +1,497 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/CSUniverse/CSUniverse/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.IUniverseCspSolver.html",
+          "hash": "Jov9k393slk+pxpF5j/hf9UaSq7ue9pFqd2QP0zEpZ0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.BinaryIntensionConstraint.html",
+          "hash": "ZMYjdjWvjGmf+NrsKGXSGgoIFCE4HK9TW/uL3AOIl6E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.ConstantIntensionConstraint.html",
+          "hash": "pvdp/xS09mfw0D7GsQGRh9dsaV7bQoT5/y3gqPrZkk0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html",
+          "hash": "ESgcoJayl9TnArgx+EiHAJQ1lNLDeRsD9cZoiN/7uN0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraintVisitor.html",
+          "hash": "5eelWviUUru/DUwiwt/YD5YK5Unzqb5ayA1iSUWK6V8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IfThenElseIntensionConstraint.html",
+          "hash": "ic3VOQag0MEG2BdhxbVYicL1JRbtzTNhnHrboQZF4XE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.html",
+          "hash": "DTaVB4MhpUF1LqL/x4gP6mPNIjwWLBOZWUKWBYTCvcA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.NaryIntensionConstraint.html",
+          "hash": "0gw6UO5xWE4tNN/lIsGcwqy66omWLmSvbKvM7qTOKHg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UnaryIntensionConstraint.html",
+          "hash": "BRKWXVd4+lZG12BsAEz7towaUAxLSuLDPF+8dhlyqHg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.UniverseOperatorIntensionConstraint.html",
+          "hash": "vg1FMXgl8lAzkFx/D8jIzeSMwBlJl17OQkhYmvotWyc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.VariableIntensionConstraint.html",
+          "hash": "nLGhPAhCQDU1e14CYqH9FyrAsUYMQYJNmoBmUWn1/W4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.html",
+          "hash": "nEf4/mxpphN6tzjywsM3AKQwHavkl1camYYf5RuU57w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.html",
+          "hash": "eOd4QfjQe411dtNJp70HLMjMnzsYTzrFVCkciY0rfIE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseArithmeticOperator.html",
+          "hash": "Fpp5bhkMHFvvjoISvDAdNVOPne1y7+GTNLtcUiF9oiI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseBooleanOperator.html",
+          "hash": "vy35saBJXjr6OHvrOOxmNcaxXK6dvgIVBhOGg7zyksE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseRelationalOperator.html",
+          "hash": "41LPBvLPaYPCpX2GGaRTVaYxFLVn2hieiu0HdgkUa/0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.UniverseSetBelongingOperator.html",
+          "hash": "q7EXbtiP4jFmDcR5PosfKEqdO3I5d+g81kdmnpGOMcw="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.html",
+          "hash": "xa6V3Pqy7A9ltMVt4XZU/Rq56mJNm1Yk8PjPnSsCSJ0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.CSP.html",
+          "hash": "XcJbKRs1T/9MbVYqZiLOBEa54KMBjE3PghQLumWp0xc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.IUniverseSolver.html",
+          "hash": "t2nBNnacLUIU7bKbsNMo7g6znowMcOGu4nCOrHPpZTg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseConstraint.html",
+          "hash": "4PTR6xHImK7uNIehy2uyIt3e5qKxDTR5oBJhAMWlcCY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseDomain.html",
+          "hash": "rd14tFlJsa7k6wyNuUmumPILRq1QUB7102Z900AQoPk="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseProblem.html",
+          "hash": "GJZ5TKbimzoidjyAn+c0M5dIxEV0NfxsX8Yco25Czyo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.IUniverseVariable.html",
+          "hash": "sKQGA4p1Z6FGOkeoznRnc3EU7eihzP1Hd7CND0Zx3nc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.Problem.html",
+          "hash": "1fbmBsRZnqLqC0UPWe+EIEM61lnZHSmq87Gl5Tas5DQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseAssumption-1.html",
+          "hash": "QqnxQxQrAXOfNMtx2u/zEqpn0pYht3MAJu2LNrZmP3w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.UniverseSolverResult.html",
+          "hash": "tRoa/JDULQXSZOqd8kcXlX2WsX1DAsby+w0Z9RzuU7Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Core.html",
+          "hash": "n0nCo4odCJ+CGbDUg25FGuNTbnBqBIEqv+gMf2dwAS8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Csp.UniverseTransition.html",
+          "hash": "xOz5lWkwLPw+mPmEPC8sZpfsnYII3VHAeLlHh9raMVY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Csp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Csp.html",
+          "hash": "hdG6h3D9/P05MLT+B0UbuswTuVH+MyKRACOfdQfZv70="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Optim.IOptimizationSolver.html",
+          "hash": "yRhh5XRtW8W0I2gepRKUNRewXbKI0KlOZv0pC2fhr4g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Optim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Optim.html",
+          "hash": "Ns8UzFnDk4Tx3wkq0VxboMb2I73+mm8xXpMs9RMio88="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.PB.IUniversePseudoBooleanSolver.html",
+          "hash": "pKmExegFLmcRIQhRJYskbmVF+76RPJVhtJhdP+F5aoM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.PB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.PB.html",
+          "hash": "WP3oRiuSo0ziPwsV8Vh9iKBvH6msxGKfXudaevpwwzI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Sat.IUniverseSatSolver.html",
+          "hash": "pN7v7JgElW0QqWrBwDGWaqpKY8oXre+tUIiw6lxl3gA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Sat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Sat.html",
+          "hash": "j14SZSfMyv0aoKntddX8149GIy6/kpn6cemEsSjsDqc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Utils.ISolverFactory.html",
+          "hash": "q9mMSklDbOQ7OF2Tw/Hha5oELybFogD1TV8B2PrKd9A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fr.UnivArtois.CRIL.CSUniverse.Utils.html",
+          "hash": "9rcIxQKSevtx3YysGr/SGm50/RQ1iXpJXmbiQaOALLY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "yD3iERMepPOSh7GWEKTlzWLCu0kejVMCcwKSPIRdelU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/zKu5IJ9EuKyWnysLbm7RoXpLqWuk1VFK+oLn4YxQME="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "GfdWZxvOQiHx8GBTlqa2kVTVNg3lNnuB1pdVSc4AoSg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "5QRtCRpw/0pn6bVpduvBHzitTeILOhK95HTpPQ3h8Qs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "JFe9WxC1p8naRonvlk5RO/u25YZj3QN80JZpAxQOkVE="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

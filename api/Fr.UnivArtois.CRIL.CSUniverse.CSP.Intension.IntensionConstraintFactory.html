@@ -1,0 +1,2284 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class IntensionConstraintFactory
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class IntensionConstraintFactory
+ ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory">
+
+
+  <h1 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory" class="text-break">Class IntensionConstraintFactory
+</h1>
+  <div class="markdown level0 summary"><p>The IntensionConstraintFactory makes easier the construction of {@code intension}
+constraints from the solver's API, by providing a functional notation similar to that
+used to define the constraints using XCSP3.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">IntensionConstraintFactory</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Fr</span>.<span class="xref">UnivArtois</span>.<span class="xref">CRIL</span>.<span class="xref">CSUniverse</span>.<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.html">CSP</a>.<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.html">Intension</a></h6>
+  <h6><strong>Assembly</strong>: Fr.UnivArtois.CRIL.CSUniverse.dll</h6>
+  <h5 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class IntensionConstraintFactory</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Abs_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L99">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Abs_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Abs_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Abs(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Abs(IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code absolute-value}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Abs(IIntensionConstraint constr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The constraint on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L111">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Add(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code addition} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Add(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L123">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Add_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Add(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Add(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code addition} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Add(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L389">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">And(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code conjunction} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint And(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L401">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_And_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.And(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">And(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code conjunction} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint And(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Binary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L533">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Binary_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Binary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Binary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Binary(IUniverseOperator, IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates a new binary {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Binary(IUniverseOperator op, IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.html">IUniverseOperator</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>The op applied by the constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_System_Int64_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Int64)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L50">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_System_Int64_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Int64)">Constant(long)</h4>
+  <div class="markdown level1 summary"><p>Wraps a constant value in its representation as an {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Constant(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">long</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the constant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_System_Numerics_BigInteger_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L62">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Constant_System_Numerics_BigInteger_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Constant(System.Numerics.BigInteger)">Constant(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Wraps a constant value in its representation as an {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Constant(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the constant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Dist_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L274">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Dist_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Dist_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Dist(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Dist(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code distance} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Dist(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Div_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L175">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Div_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Div_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Div(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Div(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code division} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Div(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L313">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Eq(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code equal} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Eq(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L325">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Eq_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Eq(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Eq(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code equal} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Eq(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L463">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Equiv(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code equivalence} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Equiv(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L475">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Equiv_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Equiv(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Equiv(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code equivalence} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Equiv(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ge_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L352">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ge_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ge_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ge(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Ge(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code greater-or-equal}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Ge(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Gt_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L365">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Gt_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Gt_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Gt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Gt(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code greater-than} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Gt(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Impl_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L489">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Impl_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Impl_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Impl(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Impl(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code implication}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Impl(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ite_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L505">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ite_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Ite_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Ite(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Ite(IIntensionConstraint, IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code if-then-else} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Ite(IIntensionConstraint condition, IIntensionConstraint ifTrue, IIntensionConstraint ifFalse)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">condition</span></td>
+        <td><p>The condition of the constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">ifTrue</span></td>
+        <td><p>The intension constraint corresponding to the case in which the</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">ifFalse</span></td>
+        <td><p>The intension constraint corresponding to the case in which the</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Le_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L301">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Le_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Le_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Le(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Le(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code less-or-equal}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Le(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Lt_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L287">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Lt_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Lt_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Lt(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Lt(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code less-than} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Lt(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L249">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Max(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code maximum} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Max(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L261">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Max_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Max(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Max(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code maximum} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Max(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L225">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Min(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code minimum} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Min(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L237">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Min_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Min(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Min(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code minimum} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Min(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mod_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L188">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mod_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mod_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mod(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Mod(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code modulo} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Mod(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L149">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Mult(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code multiplication}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Mult(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L162">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Mult_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Mult(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Mult(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code multiplication}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Mult(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L547">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Nary(IUniverseOperator, params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates a new n-ary {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Nary(IUniverseOperator op, params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.html">IUniverseOperator</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>The op applied by the constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator%2CSystem.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L560">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Nary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Nary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Nary(IUniverseOperator, IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new n-ary {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Nary(IUniverseOperator op, IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.html">IUniverseOperator</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>The op applied by the constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neg_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L86">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neg_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neg_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neg(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Neg(IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code opposite} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Neg(IIntensionConstraint constr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The constraint on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neq_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L338">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neq_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Neq_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Neq(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Neq(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code different} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Neq(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Not_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L377">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Not_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Not_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Not(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Not(IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code not} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Not(IIntensionConstraint constr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The constraint on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L413">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Or(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code disjunction} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Or(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L425">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Or_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Or(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Or(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code disjunction} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Or(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Pow_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L213">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Pow_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Pow_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Pow(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Pow(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code power} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Pow(IIntensionConstraint constr, IIntensionConstraint exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The exponent in the power operation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sqr_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L200">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sqr_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sqr_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sqr(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Sqr(IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code square} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Sqr(IIntensionConstraint constr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The constraint on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sub_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L136">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sub_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Sub_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Sub(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Sub(IIntensionConstraint, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code subtraction} op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Sub(IIntensionConstraint left, IIntensionConstraint right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left constraint on which the op is applied.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Unary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator%2CFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L519">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Unary_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Unary_Fr_UnivArtois_CRIL_CSUniverse_CSP_Operator_IUniverseOperator_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Unary(Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator,Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint)">Unary(IUniverseOperator, IIntensionConstraint)</h4>
+  <div class="markdown level1 summary"><p>Creates a new unary {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Unary(IUniverseOperator op, IIntensionConstraint constr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Operator.IUniverseOperator.html">IUniverseOperator</a></td>
+        <td><span class="parametername">op</span></td>
+        <td><p>The op applied by the constraint.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td><span class="parametername">constr</span></td>
+        <td><p>The constraint on which the op is applied.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Variable_System_String_.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L74">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Variable_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Variable_System_String_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Variable(System.String)">Variable(string)</h4>
+  <div class="markdown level1 summary"><p>Wraps a variable in its representation as an {@code intension} constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Variable(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L438">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint___" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint[])">Xor(params IIntensionConstraint[])</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code exclusive-disjunction}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Xor(params IIntensionConstraint[] constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>[]</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList%7BFr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L451">View Source</a>
+  </span>
+  <a id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor*"></a>
+  <h4 id="Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory_Xor_System_Collections_Generic_IList_Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IIntensionConstraint__" data-uid="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory.Xor(System.Collections.Generic.IList{Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint})">Xor(IList&lt;IIntensionConstraint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an {@code intension} constraint applying the {@code exclusive-disjunction}
+op.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IIntensionConstraint Xor(IList&lt;IIntensionConstraint&gt; constrs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList&lt;T&gt;</span>&lt;<a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a>&gt;</td>
+        <td><span class="parametername">constrs</span></td>
+        <td><p>The constraints on which to apply the op.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IIntensionConstraint.html">IIntensionConstraint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/new/main/apiSpec/new?filename=Fr_UnivArtois_CRIL_CSUniverse_CSP_Intension_IntensionConstraintFactory.md&amp;value=---%0Auid%3A%20Fr.UnivArtois.CRIL.CSUniverse.CSP.Intension.IntensionConstraintFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/crillab/CSUniverse/blob/main/doc/src/Fr.UnivArtois.CRIL.CSUniverse/CSP/Intension/IntensionConstraintFactory.cs/#L32" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
